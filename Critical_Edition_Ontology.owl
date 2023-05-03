@@ -1,0 +1,1544 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#"
+     xml:base="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <owl:Ontology rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R15_has_fragment -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R15_has_fragment"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R15_is_fragment_of -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R15_is_fragment_of"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R3_is_realised_in -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R3_is_realised_in">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R3_realises"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R3_realises -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R3_realises">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R4_embodies -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R4_embodies">
+        <owl:equivalentProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#includes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R4_is_embodied_in -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R4_is_embodied_in">
+        <owl:equivalentProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isIncludedIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R76_has_derivative -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R76_has_derivative">
+        <owl:equivalentProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasisFor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R76_is_derivative_of -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R76_is_derivative_of">
+        <owl:equivalentProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasedOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#associatedToSiglum -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#associatedToSiglum">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Siglum"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessDescription"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#carriedOutOn -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#carriedOutOn">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalIntervention"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessContent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#commentaryHasNote -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#commentaryHasNote">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Commentary"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Note"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasEntry"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOfComment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#containedInWitnessesList -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#containedInWitnessesList">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessDescription"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessesList"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#witnessesListContains"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#contains -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#contains">
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R15_has_fragment"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessContent"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isContainedIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#created -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#created">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Editor"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#wasCreatedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#criticalTextHasPassage -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#criticalTextHasPassage">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassage"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R15_has_fragment"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPassageOfCriticalText"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#entryHasNote -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#entryHasNote">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusEntry"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#PhilologicalNote"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#entryHasReading -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#entryHasReading">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusEntry"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#entryHasReferenceToCriticalTextPassage -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#entryHasReferenceToCriticalTextPassage">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusEntry"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassageReference"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#follows -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#follows">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <owl:equivalentProperty rdf:resource="https://w3id.org/cao#follows"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasComponent">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditionComponent"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isComponentOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasCriticalApparatusEntry -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasCriticalApparatusEntry">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatus"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusEntry"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasEntry"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOfCriticalApparatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasCriticalApparatusGroup -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasCriticalApparatusGroup">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatus"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasEntry -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasEntry">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Apparatus"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ApparatusEntry"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasInterventionType -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasInterventionType">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalIntervention"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType"/>
+        <owl:equivalentProperty rdf:resource="http://purl.org/emmedi/hico#hasInterpretationType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasPart">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#TextualTransmission"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasReadingGroup -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasReadingGroup">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusEntry"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#includes -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#includes">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessCarrier"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isIncludedIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#introductionHasPart -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#introductionHasPart">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Introduction"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#IntroductionPart"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartofIntroduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isAbout -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isAbout">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isSubjectOf"/>
+        <owl:equivalentProperty rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#P129"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasedOn -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasedOn">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasisFor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasisFor -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasisFor">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isComponentOf -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isComponentOf">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditionComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isContainedIn -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isContainedIn">
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R15_is_fragment_of"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessContent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOf -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOf">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Apparatus"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ApparatusEntry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOfComment -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOfComment">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Commentary"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Note"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOfCriticalApparatus -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOfCriticalApparatus">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatus"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusEntry"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isEntryOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isIncludedIn -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isIncludedIn">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessCarrier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isLinguisticBasisFor -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isLinguisticBasisFor">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#SurfaceWitness"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasisFor"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isLinguisticallyBasedOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isLinguisticallyBasedOn -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isLinguisticallyBasedOn">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#SurfaceWitness"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasedOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isMainBasisFor -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isMainBasisFor">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#BaseWitness"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasisFor"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isMainlyBasedOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isMainlyBasedOn -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isMainlyBasedOn">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#BaseWitness"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isBasedOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartOf">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#TextualTransmission"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartOfCriticalApparatusGroup -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartOfCriticalApparatusGroup">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusEntry"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartOfReadingGroup -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartOfReadingGroup">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingGroup"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartofIntroduction -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartofIntroduction">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Introduction"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#IntroductionPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPassageOfCriticalText -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPassageOfCriticalText">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassage"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R15_is_fragment_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPreservedIn -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPreservedIn">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#TextualTransmission"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#preserves"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPublicationOf -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPublicationOf">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEditionPublication"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R4_embodies"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPublishedIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPublishedIn -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPublishedIn">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEditionPublication"/>
+        <rdfs:subPropertyOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R4_is_embodied_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isReadBy -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isReadBy">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEditionPublication"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Reader"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#reads"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isReferredByEntry -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isReferredByEntry">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ApparatusEntry"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassage"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#refersToCriticalTextPassage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isSubjectOf -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isSubjectOf">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work"/>
+        <owl:equivalentProperty rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#P129"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#prepared -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#prepared">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalIntervention"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#preparedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#preparedBy -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#preparedBy">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalIntervention"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#preserves -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#preserves">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#TextualTransmission"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#reads -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#reads">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEditionPublication"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Reader"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#refersToCriticalTextPassage -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#refersToCriticalTextPassage">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ApparatusEntry"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#refersToSiglum -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#refersToSiglum">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Siglum"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#SiglumReference"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#set -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#set">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalIntervention"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassage"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#setBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#setBy -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#setBy">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalIntervention"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#siglumIdentifies -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#siglumIdentifies">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Siglum"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+        <owl:inverseOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#witnessIdentifiedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#wasCorrectedTo -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#wasCorrectedTo">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <owl:equivalentProperty rdf:resource="https://w3id.org/cao#wasCorrectedTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#wasCreatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#wasCreatedBy">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Editor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#wasDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#wasDerivedFrom">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#wasRevisionOf -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#wasRevisionOf">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/ns/prov#wasRevisionOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#witnessIdentifiedBy -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#witnessIdentifiedBy">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Siglum"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#witnessesListContains -->
+
+    <owl:ObjectProperty rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#witnessesListContains">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessDescription"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessesList"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/emmedi/hico#hasInterpretationType -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/emmedi/hico#hasInterpretationType"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P107 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P107">
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Editor"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Editor"/>
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditorsGroup"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditorsGroup"/>
+        <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P107"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/#P129 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/#P129"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasRevisionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasRevisionOf"/>
+    
+
+
+    <!-- https://w3id.org/cao#follows -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cao#follows"/>
+    
+
+
+    <!-- https://w3id.org/cao#hasReadingCause -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cao#hasReadingCause">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cao#hasReadingType -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cao#hasReadingType">
+        <rdfs:domain rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus"/>
+        <rdfs:range rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cao#wasCorrectedTo -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cao#wasCorrectedTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#AccompanyingMaterial -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#AccompanyingMaterial">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditionComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Apparatus -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Apparatus">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#AccompanyingMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ApparatusEntry -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ApparatusEntry"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#BaseWitness -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#BaseWitness">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Commentary -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Commentary">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Apparatus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatus -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatus">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Apparatus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusEntry -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusEntry">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ApparatusEntry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusGroup -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalApparatusGroup"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEdition">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F2_Expression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEditionPublication -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalEditionPublication">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F3_Manifestation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalIntervention -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalIntervention">
+        <rdfs:subClassOf rdf:resource="http://purl.org/emmedi/hico#InterpretationAct"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#carriedOutOn"/>
+                <owl:onClass rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessContent"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType">
+        <rdfs:subClassOf rdf:resource="http://purl.org/emmedi/hico#InterpretationType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalText">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditionComponent"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E33"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassage -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassage">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E90"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassageReference -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalTextPassageReference"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditionComponent -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditionComponent">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E73"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Editor -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Editor">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E39"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditorsGroup -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#EditorsGroup">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Editor"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E74"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F1_Work -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F1_Work">
+        <owl:equivalentClass rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F2_Expression -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F2_Expression"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F3_Manifestation -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F3_Manifestation"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Gap -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Gap">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessContent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Introduction -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Introduction">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#AccompanyingMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#IntroductionPart -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#IntroductionPart"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Note -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Note">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ApparatusEntry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#PhilologicalNote -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#PhilologicalNote"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Reader -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Reader">
+        <owl:equivalentClass rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E21"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Reading -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Reading">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessContent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingContext -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingContext"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingGroup -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingGroup"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatus">
+        <owl:equivalentClass rdf:resource="https://w3id.org/cao#Reading"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E90"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause">
+        <owl:equivalentClass rdf:resource="https://w3id.org/cao#ReadingCause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType">
+        <owl:equivalentClass rdf:resource="https://w3id.org/cao#ReadingType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Siglum -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Siglum"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#SiglumReference -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#SiglumReference"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#StemmaCodicum -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#StemmaCodicum">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#AccompanyingMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#IntroductionPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#SurfaceWitness -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#SurfaceWitness">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#TextualTransmission -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#TextualTransmission">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#hasPart"/>
+                <owl:onClass rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#UnclearPassage -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#UnclearPassage">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessContent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F2_Expression"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R3_realises"/>
+                <owl:onClass rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isPartOf"/>
+                <owl:onClass rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#TextualTransmission"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isIncludedIn"/>
+                <owl:onClass rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessCarrier"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessCarrier -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessCarrier">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#F3_Manifestation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#includes"/>
+                <owl:onClass rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessContent -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessContent">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E90"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#isContainedIn"/>
+                <owl:onClass rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessDescription -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessDescription"/>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessesList -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#WitnessesList">
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#AccompanyingMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#IntroductionPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work -->
+
+    <owl:Class rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Work">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#R3_is_realised_in"/>
+                <owl:onClass rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#Witness"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/emmedi/hico#InterpretationAct -->
+
+    <owl:Class rdf:about="http://purl.org/emmedi/hico#InterpretationAct"/>
+    
+
+
+    <!-- http://purl.org/emmedi/hico#InterpretationType -->
+
+    <owl:Class rdf:about="http://purl.org/emmedi/hico#InterpretationType"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/#E21 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/#E21"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/#E33 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/#E33"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/#E39 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/#E39"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/#E73 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/#E73"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/#E74 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/#E74"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/#E90 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/#E90"/>
+    
+
+
+    <!-- https://w3id.org/cao#Reading -->
+
+    <owl:Class rdf:about="https://w3id.org/cao#Reading"/>
+    
+
+
+    <!-- https://w3id.org/cao#ReadingCause -->
+
+    <owl:Class rdf:about="https://w3id.org/cao#ReadingCause"/>
+    
+
+
+    <!-- https://w3id.org/cao#ReadingType -->
+
+    <owl:Class rdf:about="https://w3id.org/cao#ReadingType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#characteristicReading -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#characteristicReading">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#conjecture -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#conjecture">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType"/>
+        <owl:sameAs rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#divinatio"/>
+        <owl:sameAs rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#emendatioOpeIngenii"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#conjunctiveError -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#conjunctiveError">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#correction -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#correction">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#deliberateOmission -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#deliberateOmission">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#diffractionInAbsentia -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#diffractionInAbsentia">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#diffractionInPresentia -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#diffractionInPresentia">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#divinatio -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#divinatio">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#easilyCorrigibleError -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#easilyCorrigibleError">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#emendatio -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#emendatio">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#emendatioExFontibus -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#emendatioExFontibus">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#emendatioOpeCodicum -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#emendatioOpeCodicum">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#emendatioOpeIngenii -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#emendatioOpeIngenii">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#error -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#error">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#illegible -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#illegible">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#indifferentVariant -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#indifferentVariant">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#innovation -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#innovation">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#lacuna -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#lacuna">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#lectioDifficilior -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#lectioDifficilior">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#lectioSingularis -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#lectioSingularis">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#mechanicLacuna -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#mechanicLacuna">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#monogeneticError -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#monogeneticError">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#orthographicVariant -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#orthographicVariant">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#polygeneticError -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#polygeneticError">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#selectio -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#selectio">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#CriticalInterventionType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#separativeError -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#separativeError">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#significantError -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#significantError">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#substantiveVariant -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#substantiveVariant">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#variant -->
+
+    <owl:NamedIndividual rdf:about="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#variant">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#addition -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#addition">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#conjecture -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#conjecture">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#deletion -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#deletion">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#dittography -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#dittography">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#haplography -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#haplography">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#homeoarchy -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#homeoarchy">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#homeoteleuton -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#homeoteleuton">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#incorporation -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#incorporation">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#omission -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#omission">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#polyptoton -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#polyptoton">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#saut-du-meme-au-meme -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#saut-du-meme-au-meme">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cao#transposition -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#transposition">
+        <rdf:type rdf:resource="http://lumii.lv/ontologies/Critical_Edition_Ontology.owl#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.0.1) http://owlapi.sourceforge.net -->
+
