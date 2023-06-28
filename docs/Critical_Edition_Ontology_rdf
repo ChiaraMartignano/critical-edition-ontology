@@ -167,8 +167,6 @@
         <rdfs:label xml:lang="en">apparatus entry refers to</rdfs:label>
         <!--rdfs:label xml:lang="it">la voce d’apparato si riferisce a</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#commentaryHasNote -->
 
@@ -176,14 +174,11 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Commentary"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Note"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#hasEntry"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isNoteOfCommentary"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates a philological comment, instance of Commentary, with a note it contains, instance of Note. There is at least one note within a commentary.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un commento filologico, istanza di Commentary, a una nota che contiene, istanza di Note. All’interno di un commento c’è almeno una nota.</rdfs:comment-->
+        <rdfs:label xml:lang="en">commentary has note</rdfs:label>
+        <!--rdfs:label xml:lang="it">Il commento ha la nota</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#created -->
 
@@ -195,8 +190,6 @@
         <rdfs:label xml:lang="en">created</rdfs:label>
         <!--rdfs:label xml:lang="it">ha creato</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#criticalApparatusEntryHasContent -->
 
@@ -204,14 +197,11 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntryContent"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#apparatusEntryHasContent"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isContentOfCriticalApparatusEntry"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Critical Apparatus Entry with its own content, instance of Critical Apparatus Entry Content. Within the same critical apparatus entry there are contents of a different nature, represented by instances of the Critical Apparatus Entry Content subclasses.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Apparatus Entry al proprio contenuto, istanza di Critical Apparatus Entry Content. All’interno della medesima voce dell’apparato critico ci sono contenuti di natura diversa, rappresentati da istanze delle sottoclassi di Critical Apparatus Entry Content.</rdfs:comment-->
+        <rdfs:label xml:lang="en">critical apparatus entry has content</rdfs:label>
+        <!--rdfs:label xml:lang="it">la voce dell’apparato critico ha il contenuto</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#criticalApparatusEntryRefersTo -->
 
@@ -219,14 +209,11 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalTextPassage"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#apparatusEntryRefersTo"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isReferredToByCriticalApparatusEntry"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an entry of the critical apparatus, an instance of Critical Apparatus Entry, with the passage of the critical text to which it refers, an instance of Critical Text Passage.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa una voce dell’apparato critico, istanza di Critical Apparatus Entry, al passo del testo critico cui è riferita, un’istanza di Critical Text Passage.</rdfs:comment-->
+        <rdfs:label xml:lang="en">critical apparatus entry refers to</rdfs:label>
+        <!--rdfs:label xml:lang="it">la voce dell’apparato critico si riferisce a</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#criticalApparatusHasEntry -->
 
@@ -234,14 +221,11 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatus"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#hasEntry"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isEntryOfCriticalApparatus"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Critical Apparatus with an instance of Critical Apparatus Entry. A critical apparatus contains at least one entry.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Apparatus a un’istanza di Critical Apparatus Entry. Un apparato critico contiene almeno una voce.</rdfs:comment-->
+        <rdfs:label xml:lang="en">critical apparatus has entry</rdfs:label>
+        <!--rdfs:label xml:lang="it">l’apparato critico ha la voce</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#criticalApparatusHasGroup -->
 
@@ -249,10 +233,10 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatus"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusGroup"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_has_component"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Critical Apparatus, with the groups into which it can be subdivided, that are instances of Critical Apparatus Group.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un apparato critico, istanza di Critical Apparatus, alle fasce in cui può essere suddiviso, istanze di Critical Apparatus Group.</rdfs:comment-->
+        <rdfs:label xml:lang="en">critical apparatus has group</rdfs:label>
+        <!--rdfs:label xml:lang="it">l’apparato critico ha una fascia</rdfs:label-->
     </owl:ObjectProperty>
 
     <!-- http://purl.org/critical-edition-ontology#editionHasComponent -->
@@ -266,8 +250,6 @@
         <rdfs:label xml:lang="en">edition has component</rdfs:label>
         <!--rdfs:label xml:lang="it">l’edizione ha il componente</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#entryContentHasNote -->
 
@@ -275,23 +257,21 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntryContent"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntryNote"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#P3_has_note"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Critical Apparatus Entry Note with an instance of Critical Apparatus Entry Content or one of its subclasses.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Apparatus Entry Note a un’istanza di Critical Apparatus Entry Content o di una delle sue sottoclassi.</rdfs:comment-->
+        <rdfs:label xml:lang="en">entry content has note</rdfs:label>
+        <!--rdfs:label xml:lang="it">il contenuto della voce dell’apparato critico ha una nota</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#entryHasReading -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#entryHasReading">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Critical Apparatus Entry with one or more instances of Reading In Apparatus. At least one reading is presented in each entry of the critical apparatus.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Apparatus Entry a un’istanza o più di Reading In Apparatus. In ogni voce dell’apparato critico è presentata almeno una lezione.</rdfs:comment-->
+        <rdfs:label xml:lang="en">entry has reading</rdfs:label>
+        <!--rdfs:label xml:lang="it">la voce dell’apparato critico ha la lezione</rdfs:label-->
     </owl:ObjectProperty>
     
 
@@ -302,10 +282,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
         <owl:equivalentProperty rdf:resource="https://w3id.org/cao#follows"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <!-- CAO, sistemare! -->
     </owl:ObjectProperty>
     
     <!-- http://purl.org/critical-edition-ontology#hasApparatus -->
@@ -326,10 +303,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasBody">
         <owl:equivalentProperty rdf:resource="http://purl.org/critical-edition-ontology#isContentOfApparatusEntry"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <!-- OA -->
     </owl:ObjectProperty>
 
     <!-- http://purl.org/critical-edition-ontology#hasEntry -->
@@ -343,35 +317,29 @@
         <rdfs:label xml:lang="en">has entry</rdfs:label>
         <!--rdfs:label xml:lang="it">ha la voce</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#hasFormalVariant -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasFormalVariant">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#BaseReadingInApparatus"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isFormalVariantOf"/>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/cao#hasVariant"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Base Reading In Apparatus with instances of Reading In Apparatus, which are formal variants of it.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Base Reading In Apparatus, alle istanze di Reading In Apparatus, che sono delle sue varianti formali.</rdfs:comment-->
+        <rdfs:label xml:lang="en">has formal variant</rdfs:label>
+        <!--rdfs:label xml:lang="it">ha la variante formale</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#hasIndifferentVariant -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasIndifferentVariant">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#BaseReadingInApparatus"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isIndifferentVariantOf"/>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/cao#hasVariant"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Base Reading In Apparatus with instances of Reading In Apparatus, which are indifferent variants of it.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Base Reading In Apparatus, alle istanze di Reading In Apparatus, che sono delle sue varianti adiafore.</rdfs:comment-->
+        <rdfs:label xml:lang="en">has indifferent variant</rdfs:label>
+        <!--rdfs:label xml:lang="it">ha la variante adiafora</rdfs:label-->
     </owl:ObjectProperty>
 
     <!-- http://purl.org/critical-edition-ontology#hasInterventionCriterion -->
@@ -398,8 +366,6 @@
         <!--rdfs:label xml:lang="it">ha il tipo di intervento</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#hasPart -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasPart">
@@ -435,33 +401,25 @@
         <rdfs:label xml:lang="en">has reading</rdfs:label>
         <!--rdfs:label xml:lang="it">ha la lezione</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#hasReadingGroup -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasReadingGroup">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ReadingGroup"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Critical Apparatus Entry with one or more instances of Reading Group, which it may contain.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Apparatus Entry a una o più istanze di Reading Group, che può presentare al proprio interno.</rdfs:comment-->
+        <rdfs:label xml:lang="en">has reading group</rdfs:label>
+        <!--rdfs:label xml:lang="it">ha il gruppo di lezioni</rdfs:label-->
     </owl:ObjectProperty>
     
 
 
     <!-- http://purl.org/critical-edition-ontology#hasSelector -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasSelector">
+    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasSelector"><!-- OA -->
         <owl:equivalentProperty rdf:resource="http://purl.org/critical-edition-ontology#passageHasSelector"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#introductionHasPart -->
 
@@ -469,14 +427,11 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Introduction"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#IntroductionPart"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_has_component"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isPartOfIntroduction"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Introduction with one or more instances of Introduction Part it may contain.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Introduction a una o più istanze di Introduction Part che può contenere.</rdfs:comment-->
+        <rdfs:label xml:lang="en">introduction has part</rdfs:label>
+        <!--rdfs:label xml:lang="it">l’introduzione ha la parte</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isAccompaniedBy -->
 
@@ -554,8 +509,6 @@
         <rdfs:label xml:lang="en">is content of apparatus entry</rdfs:label>
         <!--rdfs:label xml:lang="it">è il contenuto della voce d’apparato</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isContentOfCriticalApparatusEntry -->
 
@@ -563,13 +516,10 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntryContent"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#isContentOfApparatusEntry"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#criticalApparatusEntryHasContent"/>
+        <rdfs:label xml:lang="en">is content of critical apparatus entry</rdfs:label>
+        <!--rdfs:label xml:lang="it">è il contenuto della voce dell’apparato critico</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isEditedIn -->
 
@@ -582,8 +532,6 @@
         <rdfs:label xml:lang="en">is edited in</rdfs:label>
         <!--rdfs:label xml:lang="it">è edito in</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isEditionOf -->
 
@@ -607,21 +555,16 @@
         <!--rdfs:label xml:lang="it">è la voce di</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#isEntryOfCriticalApparatus -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isEntryOfCriticalApparatus">
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatus"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#isEntryOf"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#criticalApparatusHasEntry"/>
+        <rdfs:label xml:lang="en">is entry of critical apparatus</rdfs:label>
+        <!--rdfs:label xml:lang="it">è voce dell’apparato critico</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isFormalVariantOf -->
 
@@ -629,13 +572,10 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#BaseReadingInApparatus"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/cao#isVariantOf"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#hasFormalVariant"/>
+        <rdfs:label xml:lang="en">is formal variant of</rdfs:label>
+        <!--rdfs:label xml:lang="it">è variante formale di</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isIndifferentVariantOf -->
 
@@ -643,13 +583,10 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#BaseReadingInApparatus"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/cao#isVariantOf"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#hasIndifferentVariant"/>
+        <rdfs:label xml:lang="en">is indifferent variant of</rdfs:label>
+        <!--rdfs:label xml:lang="it">è variante adiafora di</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isLinguisticBasisFor -->
 
@@ -657,29 +594,23 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalText"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R76_has_derivative"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#SurfaceWitness"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isLinguisticallyBasedOn"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Critical Text with only one instance of Surface Witness.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Text a una sola istanza di Surface Witness.</rdfs:comment-->
+        <rdfs:label xml:lang="en">is linguistic basis for</rdfs:label>
+        <!--rdfs:label xml:lang="it">è la base linguistica per</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#isLinguisticallyBasedOn -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isLinguisticallyBasedOn">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalText"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R76_is_derivative_of"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#SurfaceWitness"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isLinguisticBasisFor"/>
+        <rdfs:label xml:lang="en">is linguistically based on</rdfs:label>
+        <!--rdfs:label xml:lang="it">è linguisticamente basato su</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#isMainBasisFor -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isMainBasisFor">
@@ -691,8 +622,6 @@
         <rdfs:label xml:lang="en">is main basis for</rdfs:label>
         <!--rdfs:label xml:lang="it">è la base principale per</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isMainlyBasedOn -->
 
@@ -705,22 +634,17 @@
         <!--rdfs:label xml:lang="it">è principalmente basato su</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#isNoteOfCommentary -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isNoteOfCommentary">
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Commentary"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Note"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#isEntryOf"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#commentaryHasNote"/>
+        <rdfs:label xml:lang="en">is note of commentary</rdfs:label>
+        <!--rdfs:label xml:lang="it">è la nota del commento</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#isPartOf -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isPartOf">
@@ -730,8 +654,6 @@
         <rdfs:label xml:lang="en">is part of</rdfs:label>
         <!--rdfs:label xml:lang="it">è parte di</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isPartOfCriticalApparatusGroup -->
 
@@ -739,13 +661,11 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusGroup"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_is_component_of"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Critical Apparatus Entry with an instance of Critical Apparatus Group. Within a group of the critical apparatus there is at least one entry.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Apparatus Entry a un’istanza di Critical Apparatus Group. All’interno di una fascia dell’apparato critico c’è almeno una voce.</rdfs:comment-->
+        <rdfs:label xml:lang="en">is part of critical apparatus group</rdfs:label>
+        <!--rdfs:label xml:lang="it">è parte di una fascia dell’apparato critico</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isPartOfIntroduction -->
 
@@ -753,13 +673,10 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Introduction"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#IntroductionPart"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_is_component_of"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#introductionHasPart"/>
+        <rdfs:label xml:lang="en">is part of introduction</rdfs:label>
+        <!--rdfs:label xml:lang="it">è parte dell’introduzione</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isPartOfReadingGroup -->
 
@@ -767,14 +684,12 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_is_component_of"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ReadingGroup"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Reading In Apparatus with an instance of Reading Group.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Reading In Apparatus a un’istanza di Reading Group.</rdfs:comment-->
+        <rdfs:label xml:lang="en">is part of reading group</rdfs:label>
+        <!--rdfs:label xml:lang="it">è parte di un gruppo di lezioni</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#isPassageOf -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isPassageOf">
@@ -784,10 +699,6 @@
         <rdfs:label xml:lang="en">is passage of</rdfs:label>
         <!--rdfs:label xml:lang="it">è il passo di</rdfs:label-->
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R15_is_fragment_of"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
     </owl:ObjectProperty>
 
     <!-- http://purl.org/critical-edition-ontology#isPreservedIn -->
@@ -800,6 +711,7 @@
         <rdfs:label xml:lang="en">is preserved in</rdfs:label>
         <!--rdfs:label xml:lang="it">è conservato in</rdfs:label-->
     </owl:ObjectProperty>
+    
     <!-- http://purl.org/critical-edition-ontology#isPublishedIn -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isPublishedIn">
@@ -821,8 +733,6 @@
         <!--rdfs:label xml:lang="it">è letta da</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#isReadingOf -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isReadingOf">
@@ -844,8 +754,6 @@
         <rdfs:label xml:lang="en">is referred to by apparatus entry</rdfs:label>
         <!--rdfs:label xml:lang="it">è riferito dalla voce d’apparato</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#isReferredToByCriticalApparatusEntry -->
 
@@ -853,14 +761,11 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalTextPassage"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#isReferredToByApparatusEntry"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#criticalApparatusEntryRefersTo"/>
+        <rdfs:label xml:lang="en">is referred to by critical apparatus entry</rdfs:label>
+        <!--rdfs:label xml:lang="it">è riferito dalla voce dell’apparato critico</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#isSelectorOfPassage -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isSelectorOfPassage">
@@ -942,18 +847,16 @@
         <rdfs:label xml:lang="en">publishes</rdfs:label>
         <!--rdfs:label xml:lang="it">pubblica</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#readingIsWitnessedBy -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#readingIsWitnessedBy">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#SiglumReference"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Reading In Apparatus or Base Reading In Apparatus with one or more instances of Siglum Reference.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Reading In Apparatus o di Base Reading In Apparatus a una o più istanze di Siglum Reference.</rdfs:comment-->
+        <rdfs:label xml:lang="en">reading is witnessed by</rdfs:label>
+        <!--rdfs:label xml:lang="it">la lezione è testimoniata da (oppure ‘la lezione è attestata in’)</rdfs:label-->
     </owl:ObjectProperty>
 
     <!-- http://purl.org/critical-edition-ontology#reads -->
@@ -966,21 +869,17 @@
         <rdfs:label xml:lang="en">reads</rdfs:label>
         <!--rdfs:label xml:lang="it">legge</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#refersToSiglum -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#refersToSiglum">
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Siglum"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#SiglumReference"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates the siglum of a witness, an instance of Siglum, to its references contained within the entries of the critical apparatus, represented by instances of Siglum Reference.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa la sigla di un testimone, un’istanza di Siglum, ai suoi rimandi contenuti all’interno delle voci dell’apparato critico, rappresentati da istanze di Siglum Reference.</rdfs:comment-->
+        <rdfs:label xml:lang="en">refers to siglum</rdfs:label>
+        <!--rdfs:label xml:lang="it">si riferisce alla sigla</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#selectorIsShownIn -->
 
@@ -1004,22 +903,17 @@
         <rdfs:label xml:lang="en">set by</rdfs:label>
         <!--rdfs:label xml:lang="it">stabilito da</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#siglumIdentifies -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#siglumIdentifies">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Siglum"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#witnessIsIdentifiedBy"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Witness with the instance of Siglum which identifies it within the critical edition.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Witness all’istanza di Siglum che lo identifica all’interno dell’edizione critica.</rdfs:comment-->
+        <rdfs:label xml:lang="en">siglum identifies</rdfs:label>
+        <!--rdfs:label xml:lang="it">la sigla identifica</rdfs:label-->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#transmits -->
 
@@ -1045,6 +939,7 @@
         <!--rdfs:comment xml:lang="it"></rdfs:comment-->
         <rdfs:label xml:lang="en"></rdfs:label>
         <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <!-- CAO -->
     </owl:ObjectProperty>
     
     <!-- http://purl.org/critical-edition-ontology#wasCreatedBy -->
@@ -1069,6 +964,7 @@
         <!--rdfs:comment xml:lang="it"></rdfs:comment-->
         <rdfs:label xml:lang="en"></rdfs:label>
         <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <!-- CAO -->
     </owl:ObjectProperty>
     
 
@@ -1083,45 +979,39 @@
         <!--rdfs:comment xml:lang="it"></rdfs:comment-->
         <rdfs:label xml:lang="en"></rdfs:label>
         <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <!-- CAO -->
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#witnessIsDescribedBy -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#witnessIsDescribedBy">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#WitnessDescription"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Witness with the instance of Witness Description in which it is described.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Witness con l’istanza di Witness Description in cui è descritto.</rdfs:comment-->
+        <rdfs:label xml:lang="en">witness is described by</rdfs:label>
+        <!--rdfs:label xml:lang="it">il testimone è descritto in</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#witnessIsIdentifiedBy -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#witnessIsIdentifiedBy">
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Siglum"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#siglumIdentifies"/>
+        <rdfs:label xml:lang="en">witness is identified by</rdfs:label>
+        <!--rdfs:label xml:lang="it">il testimone è identificato da</rdfs:label-->
     </owl:ObjectProperty>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#witnessIsPresentedIn -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#witnessIsPresentedIn">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#WitnessesList"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">This property associates an instance of Witness with the instance of Witnesses List in which it is presented.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Witness con l’istanza di Witnesses List in cui è presentato.</rdfs:comment-->
+        <rdfs:label xml:lang="en">witness is presented in</rdfs:label>
+        <!--rdfs:label xml:lang="it">il testimone è presentato in</rdfs:label-->
     </owl:ObjectProperty>
     
 
