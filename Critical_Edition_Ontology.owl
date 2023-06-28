@@ -186,6 +186,16 @@
     
 
 
+    <!-- http://purl.org/critical-edition-ontology#criticalApparatusHasGroup -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#criticalApparatusHasGroup">
+        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatus"/>
+        <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusGroup"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_has_component"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.org/critical-edition-ontology#editionHasComponent -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#editionHasComponent">
@@ -216,15 +226,6 @@
     
 
 
-    <!-- http://purl.org/critical-edition-ontology#entryHasReferenceToCriticalTextPassage -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#entryHasReferenceToCriticalTextPassage">
-        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntry"/>
-        <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalTextPassageReference"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/critical-edition-ontology#follows -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#follows">
@@ -250,16 +251,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasBody">
         <owl:equivalentProperty rdf:resource="http://purl.org/critical-edition-ontology#isContentOfApparatusEntry"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/critical-edition-ontology#hasCriticalApparatusGroup -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasCriticalApparatusGroup">
-        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatus"/>
-        <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusGroup"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_has_component"/>
     </owl:ObjectProperty>
     
 
@@ -320,7 +311,7 @@
     <!-- http://purl.org/critical-edition-ontology#hasPart -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasPart">
-        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#TextualTransmission"/>
+        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#TextualTradition"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isPartOf"/>
     </owl:ObjectProperty>
@@ -372,7 +363,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Introduction"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#IntroductionPart"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_has_component"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isPartofIntroduction"/>
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isPartOfIntroduction"/>
     </owl:ObjectProperty>
     
 
@@ -572,7 +563,7 @@
     <!-- http://purl.org/critical-edition-ontology#isPartOf -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isPartOf">
-        <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#TextualTransmission"/>
+        <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#TextualTradition"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
     </owl:ObjectProperty>
     
@@ -588,22 +579,22 @@
     
 
 
+    <!-- http://purl.org/critical-edition-ontology#isPartOfIntroduction -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isPartOfIntroduction">
+        <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Introduction"/>
+        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#IntroductionPart"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_is_component_of"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.org/critical-edition-ontology#isPartOfReadingGroup -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isPartOfReadingGroup">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_is_component_of"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ReadingGroup"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/critical-edition-ontology#isPartofIntroduction -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isPartofIntroduction">
-        <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Introduction"/>
-        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#IntroductionPart"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.org/critical-edition-ontology#R5_is_component_of"/>
     </owl:ObjectProperty>
     
 
@@ -803,7 +794,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#siglumIdentifies">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Siglum"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#witnessIdentifiedBy"/>
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#witnessIsIdentifiedBy"/>
     </owl:ObjectProperty>
     
 
@@ -857,15 +848,6 @@
     
 
 
-    <!-- http://purl.org/critical-edition-ontology#witnessIdentifiedBy -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#witnessIdentifiedBy">
-        <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Siglum"/>
-        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/critical-edition-ontology#witnessIsDescribedBy -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#witnessIsDescribedBy">
@@ -875,9 +857,18 @@
     
 
 
-    <!-- http://purl.org/critical-edition-ontology#witnessPresentedIn -->
+    <!-- http://purl.org/critical-edition-ontology#witnessIsIdentifiedBy -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#witnessPresentedIn">
+    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#witnessIsIdentifiedBy">
+        <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Siglum"/>
+        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/critical-edition-ontology#witnessIsPresentedIn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#witnessIsPresentedIn">
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#WitnessesList"/>
     </owl:ObjectProperty>
@@ -1041,6 +1032,33 @@
     <!-- https://w3id.org/cao#wasCorrectedTo -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cao#wasCorrectedTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/critical-edition-ontology#isNegative -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/critical-edition-ontology#isNegative">
+        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatus"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/critical-edition-ontology#isPositive -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/critical-edition-ontology#isPositive">
+        <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatus"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -1214,12 +1232,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#EditedTextPassage"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E90"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.org/critical-edition-ontology#CriticalTextPassageReference -->
-
-    <owl:Class rdf:about="http://purl.org/critical-edition-ontology#CriticalTextPassageReference"/>
     
 
 
@@ -1480,9 +1492,9 @@
     
 
 
-    <!-- http://purl.org/critical-edition-ontology#TextualTransmission -->
+    <!-- http://purl.org/critical-edition-ontology#TextualTradition -->
 
-    <owl:Class rdf:about="http://purl.org/critical-edition-ontology#TextualTransmission">
+    <owl:Class rdf:about="http://purl.org/critical-edition-ontology#TextualTradition">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/critical-edition-ontology#hasPart"/>
@@ -1516,7 +1528,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/critical-edition-ontology#isPartOf"/>
-                <owl:onClass rdf:resource="http://purl.org/critical-edition-ontology#TextualTransmission"/>
+                <owl:onClass rdf:resource="http://purl.org/critical-edition-ontology#TextualTradition"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1665,27 +1677,9 @@
     
 
 
-    <!-- http://purl.org/critical-edition-ontology#conjecture -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#conjecture">
-        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
-        <owl:sameAs rdf:resource="http://purl.org/critical-edition-ontology#divinatio"/>
-        <owl:sameAs rdf:resource="http://purl.org/critical-edition-ontology#emendatioOpeIngenii"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://purl.org/critical-edition-ontology#conjunctiveError -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#conjunctiveError">
-        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/critical-edition-ontology#correction -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#correction">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
     </owl:NamedIndividual>
     
@@ -1710,22 +1704,6 @@
     <!-- http://purl.org/critical-edition-ontology#diffractionInPresentia -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#diffractionInPresentia">
-        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/critical-edition-ontology#divinatio -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#divinatio">
-        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/critical-edition-ontology#easilyCorrigibleError -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#easilyCorrigibleError">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
     </owl:NamedIndividual>
     
@@ -1771,10 +1749,10 @@
     
 
 
-    <!-- http://purl.org/critical-edition-ontology#illegible -->
+    <!-- http://purl.org/critical-edition-ontology#evidentError -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#illegible">
-        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusCause"/>
+    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#evidentError">
+        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
     </owl:NamedIndividual>
     
 
@@ -1790,6 +1768,14 @@
     <!-- http://purl.org/critical-edition-ontology#innovation -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#innovation">
+        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/critical-edition-ontology#interScribendumCorrection -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#interScribendumCorrection">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
     </owl:NamedIndividual>
     
@@ -1907,6 +1893,14 @@
     
 
 
+    <!-- https://w3id.org/cao#correction -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cao#correction">
+        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/cao#deletion -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cao#deletion">
@@ -1984,6 +1978,29 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/cao#transposition">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="https://w3id.org/cao#transposition">
+        <rdfs:comment>The type for a reading that was transposed from another location in the text, including the flipping of the order of two words or phrases.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cao#omission">
+        <rdfs:comment>The type for a reading that is an omission (i.e. the author or scribe did not include the reading in the witness). If intentional, an omission may also classify as a correction.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/critical-edition-ontology#CriticalEdition">
+        <rdfs:comment>A type of scholarly edition, created by applying the principles of textual criticism, with the aim of reconstructing the original form or more original forms of the text of a work.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cao#correction">
+        <rdfs:comment>The type for a reading that is a correction (i.e. it is an authorial or scribal correction of a previous textual fragment).</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 
