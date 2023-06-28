@@ -124,12 +124,18 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#EditedText"/>
         <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isAccompaniedBy"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
+        <rdfs:comment xml:lang="en">This property associates an instance of Accompanying Material with the instance of Edited Text it accompanies. An edited text can have multiple accompanying materials.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Accompanying Material all’istanza di Edited Text che correda. Un testo edito può avere molteplici materiali di corredo.</rdfs:comment>
         <rdfs:isDefinedBy>http://purl.org/critical-edition-ontology</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="en">accompanies</rdfs:label>
+        <rdfs:label xml:lang="it">correda</rdfs:label>
     </owl:ObjectProperty>
+
+    <!--rdfs:comment xml:lang="en"></rdfs:comment>
+    <rdfs:comment xml:lang="it"></rdfs:comment>
+    <rdfs:isDefinedBy>http://purl.org/critical-edition-ontology</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="en"></rdfs:label>
+    <rdfs:label xml:lang="it"></rdfs:label-->
 
     <!-- http://purl.org/critical-edition-ontology#apparatusEntryHasContent -->
 
