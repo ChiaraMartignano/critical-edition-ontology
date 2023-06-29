@@ -1993,292 +1993,271 @@ Nota: con un generico “legge” si riassumono le diverse modalità in cui un�
         <!--rdfs:label xml:lang="it">errore congiuntivo</rdfs:label-->
     </owl:NamedIndividual>
     
-
+    
+    
+    <!-- http://purl.org/critical-edition-ontology#deletion -->
+    
+    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#deletion">
+        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
+        <rdfs:comment xml:lang="en">String of text that the copyist somehow designated to be removed.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Stringa di testo che il copista ha in qualche modo designato come da rimuovere.</rdfs:comment-->
+        <rdfs:label xml:lang="en">deletion</rdfs:label>
+        <!--rdfs:label xml:lang="it">cancellatura</rdfs:label-->
+    </owl:NamedIndividual>
 
     <!-- http://purl.org/critical-edition-ontology#deliberateOmission -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#deliberateOmission">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Text string deliberately omitted by the copyist in the act of copying the text.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Stringa di testo volutamente omessa dal copista nell’atto di copiare il testo.</rdfs:comment-->
+        <rdfs:label xml:lang="en">deliberate omission</rdfs:label>
+        <!--rdfs:label xml:lang="it">omissione volontaria</rdfs:label-->
     </owl:NamedIndividual>
     
-
+    <!-- http://purl.org/critical-edition-ontology#diffraction -->
+    
+    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#diffraction">
+        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
+        <rdfs:comment xml:lang="en">The phenomenon whereby tradition presents multiple alternative and distinct variants for a single textual passage, resulting from the scribes’ reaction to a difficulty in the original text.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Fenomeno per cui la tradizione presenta più varianti alternative e diverse tra loro per un singolo luogo testuale, in seguito alla reazione dei copisti di fronte a una difficoltà del testo di partenza.</rdfs:comment-->
+        <rdfs:label xml:lang="en">diffraction</rdfs:label>
+        <!--rdfs:label xml:lang="it">diffrazione</rdfs:label-->
+    </owl:NamedIndividual>
 
     <!-- http://purl.org/critical-edition-ontology#diffractionInAbsentia -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#diffractionInAbsentia">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">The same as diffraction, but with the peculiarity that none of the variants attested within the textual transmission is considered to be the origin of the phenomenon by the editor.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lo stesso che diffrazione, ma con la particolarità che nessuna delle varianti attestate dalla tradizione è considerata all’origine del fenomeno dall’editore.</rdfs:comment-->
+        <rdfs:label xml:lang="en">diffraction in absentia</rdfs:label>
+        <!--rdfs:label xml:lang="it">diffrazione in assenza (della lezione ricevibile)</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#diffractionInPresentia -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#diffractionInPresentia">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">The same as diffraction, but with the peculiarity that one of the variants attested within the textual transmission is considered to be the origin of the phenomenon by the editor.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lo stesso che diffrazione, ma con la particolarità che una delle varianti attestate dalla tradizione è considerata all’origine del fenomeno dall’editore.</rdfs:comment-->
+        <rdfs:label xml:lang="en">diffraction in presentia</rdfs:label>
+        <!--rdfs:label xml:lang="it">diffrazione in presenza (della lezione ricevibile)</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#emendatio -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#emendatio">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘emendatio’ when the editor corrects a passage in the text of the work.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘emendatio’ quando l’editore corregge un luogo del testo dell’opera.</rdfs:comment-->
+        <rdfs:label xml:lang="lat">emendatio</rdfs:label>
+        <!--rdfs:label xml:lang="en">correction</rdfs:label-->
+        <!--rdfs:label xml:lang="it">correzione</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#emendatioExFontibus -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#emendatioExFontibus">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘emendatio ex fontibus’ when the editor corrects a passage in the text, based on the sources they consider to have been used in writing the text of the work.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘emendatio ex fontibus’ quando l’editore sana un luogo del testo, basandosi sulle fonti che ritiene che siano state utilizzate in fase di scrittura del testo dell’opera.</rdfs:comment-->
+        <rdfs:label xml:lang="lat">emendatio ex fontibus</rdfs:label>
+        <!--rdfs:label xml:lang="en">correction based on sources</rdfs:label-->
+        <!--rdfs:label xml:lang="it">correzione in base alle fonti</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#emendatioOpeCodicum -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#emendatioOpeCodicum">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘emendatio ope codicum’ when the editor corrects a passage in the text, resorting to a good reading transmitted by one or more witnesses.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘emendatio ope codicum’ quando l’editore sana un luogo del testo, facendo ricorso a una lezione buona trasmessa da uno o più testimoni.</rdfs:comment-->
+        <rdfs:label xml:lang="lat">emendatio ope codicum</rdfs:label>        
+        <!--rdfs:label xml:lang="en">correction based on witnesses</rdfs:label-->
+        <!--rdfs:label xml:lang="it">correzione in base ai testimoni</rdfs:label-->
     </owl:NamedIndividual>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#emendatioOpeIngenii -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#emendatioOpeIngenii">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘emendatio ope ingenii’ when the editor corrects a place in the text, proposing a conjectural reading, not attested by any witness.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘emendatio ope ingenii’ quando l’editore sana un luogo del testo, proponendo una lezione congetturale, non attestata in alcun testimone.</rdfs:comment-->
+        <rdfs:label xml:lang="lat">emendatio ope ingenii</rdfs:label>
+        <!--rdfs:label xml:lang="en">conjecture</rdfs:label-->
+        <!--rdfs:label xml:lang="it">congettura</rdfs:label-->
     </owl:NamedIndividual>
     
-
+    <!-- http://purl.org/critical-edition-ontology#easilyCorrigibleError -->
+    
+    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#easilyCorrigibleError">
+        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
+        <rdfs:comment xml:lang="en">Obviously erroneous reading and therefore easily corrigible.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione evidentemente erronea e quindi facilmente correggibile.</rdfs:comment-->
+        <rdfs:label xml:lang="en">easily corrigible error</rdfs:label>
+        <!--rdfs:label xml:lang="it">errore facilmente correggibile</rdfs:label-->
+    </owl:NamedIndividual>
 
     <!-- http://purl.org/critical-edition-ontology#error -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#error">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Reading that is considered not to be in the original form of the text as it is incongruous with respect to the grammatical, semantic, metric, narrative coherence of the text.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione che si ritiene non ascrivibile alla forma originaria del testo in quanto incongrua rispetto alla coerenza grammaticale, semantica, metrica, narrativa del testo.</rdfs:comment-->
+        <rdfs:label xml:lang="en">error</rdfs:label>
+        <!--rdfs:label xml:lang="it">errore</rdfs:label-->
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/critical-edition-ontology#evidentError -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#evidentError">
-        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
-    </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#indifferentVariant -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#indifferentVariant">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Variant for which according to the editor it is not possible to express a preference with respect to the others equally attributable to the original form of the text.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Variante per cui secondo l’editore non è possibile esprimere una preferenza rispetto alle altre altrettanto attribuibili alla forma originaria del testo. </rdfs:comment-->
+        <rdfs:label xml:lang="en">indifferent variant</rdfs:label>
+        <!--rdfs:label xml:lang="it">variante adiàfora</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#innovation -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#innovation">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Reading that alters the text of the antigraph and therefore cannot be attributed to the original form of the text.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione che modifica il testo dell’antigrafo e quindi non attribuibile alla forma originaria del testo.</rdfs:comment-->
+        <rdfs:label xml:lang="en">innovation</rdfs:label>
+        <!--rdfs:label xml:lang="it">innovazione</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#interScribendumCorrection -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#interScribendumCorrection">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Error present in two or more witnesses, which allows to deduce that they are copies of each other or copies of the same lost witness.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Correzione di un errore da parte dello stesso copista, eseguita immediatamente, prima di continuare la scrittura del testo.</rdfs:comment-->
+        <rdfs:label xml:lang="en">inter scribendum correction</rdfs:label>
+        <!--rdfs:label xml:lang="it">correzione nel corso della scrittura</rdfs:label-->
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/critical-edition-ontology#lacuna -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#lacuna">
-        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
-    </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#lectioDifficilior -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#lectioDifficilior">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">More complex or rare or refined reading compared to the alternative variants, and therefore probably original.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione più complessa o rara o ricercata rispetto alle varianti alternative, e quindi verosimilmente originaria.</rdfs:comment-->
+        <rdfs:label xml:lang="lat">lectio difficilior</rdfs:label>
+        <!--rdfs:label xml:lang="it">lezione più difficile</rdfs:label-->
     </owl:NamedIndividual>
     
-
-
+    <!-- http://purl.org/critical-edition-ontology#lectioFacilior -->
+    
+    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#lectioFacilior">
+        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
+        <rdfs:comment xml:lang="en">Less complex or rare or refined reading compared to the alternative variants, and therefore probably not original.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione meno complessa o rara o ricercata rispetto alle varianti alternative, e quindi non verosimilmente originaria.</rdfs:comment-->
+        <rdfs:label xml:lang="lat">lectio facilior</rdfs:label>
+        <!--rdfs:label xml:lang="it">lezione più facile (o banalizzazione)</rdfs:label-->
+    </owl:NamedIndividual>
+    
     <!-- http://purl.org/critical-edition-ontology#lectioSingularis -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#lectioSingularis">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Reading transmitted by a single witness or a single sub-family of witnesses who are isolated in the stemma with respect to the tradition as a whole.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione trasmessa da un solo testimone o una sola sotto-famiglia di testimoni che risultano isolati nello stemma rispetto all’insieme della tradizione.</rdfs:comment-->
+        <rdfs:label xml:lang="lat">lectio singularis</rdfs:label>
+        <!--rdfs:label xml:lang="it">lezione isolata</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#mechanicLacuna -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#mechanicLacuna">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Omission due to the physical loss of part of the witness.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Omissione dovuta alla perdita fisica di una parte del testimone.</rdfs:comment-->
+        <rdfs:label xml:lang="en">mechanic lacuna</rdfs:label>
+        <!--rdfs:label xml:lang="it">lacuna meccanica</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#monogeneticError -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#monogeneticError">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">An error which is unlikely to have been committed by several copyists independently of each other.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Errore che è improbabile sia stato commesso da più copisti indipendentemente l’uno dall’altro.</rdfs:comment-->
+        <rdfs:label xml:lang="en">monogenetic error</rdfs:label>
+        <!--rdfs:label xml:lang="it">errore monogenetico</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#orthographicVariant -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#orthographicVariant">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Reading that differs on a formal level (graphic and/or phonetic) from the reading considered original by the publisher.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione che si differenzia su un piano formale (grafico e/o fonetico) rispetto alla lezione considerata originaria dall’editore.</rdfs:comment-->
+        <rdfs:label xml:lang="en">orthographic variant</rdfs:label>
+        <!--rdfs:label xml:lang="it">variante ortografica</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#polygeneticError -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#polygeneticError">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">An error that is likely to have been committed by several copyists independently of each other.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Errore che è probabile sia stato commesso da più copisti indipendentemente l’uno dall’altro.</rdfs:comment-->
+        <rdfs:label xml:lang="en">polygenetic error</rdfs:label>
+        <!--rdfs:label xml:lang="it">errore poligenetico</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#selectio -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#selectio">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘selectio’ when the editor constitutes the passage of the critical text by choosing among the variants.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘selectio’ quando l’editore costituisce il luogo del testo critico scegliendo tra le varianti.</rdfs:comment-->
+        <rdfs:label xml:lang="lat">selectio</rdfs:label>
+        <!--rdfs:label xml:lang="en">selection</rdfs:label-->
+        <!--rdfs:label xml:lang="it">selezione</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#separativeError -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#separativeError">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Error present in a witness A and absent in a witness B, which allows to deduce that B does not derive from A.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Errore presente in un codice A e assente in un codice B, che consente di dedurre che B non deriva da A.</rdfs:comment-->
+        <rdfs:label xml:lang="en">separative error</rdfs:label>
+        <!--rdfs:label xml:lang="it">errore separativo</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#significantError -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#significantError">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Conjunctive or separative error.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Errore congiuntivo o separativo.</rdfs:comment-->
+        <rdfs:label xml:lang="en">significant error</rdfs:label>
+        <!--rdfs:label xml:lang="it">errore significativo (o errore-guida)</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#substantiveVariant -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#substantiveVariant">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Reading that differs on a semantic level from the reading considered original by the editor.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione che si differenzia su un piano semantico rispetto alla lezione considerata originaria dall’editore.</rdfs:comment-->
+        <rdfs:label xml:lang="en">substantive variant</rdfs:label>
+        <!--rdfs:label xml:lang="it">variante sostanziale</rdfs:label-->
     </owl:NamedIndividual>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#variant -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#variant">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Reading of one witness different from that of another, without one of them necessarily being erroneous.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione di un testimone diversa da quella di un altro, senza che una di esse sia necessariamente erronea.</rdfs:comment-->
+        <rdfs:label xml:lang="en">variant</rdfs:label>
+        <!--rdfs:label xml:lang="it">variante</rdfs:label-->
     </owl:NamedIndividual>
     
 
