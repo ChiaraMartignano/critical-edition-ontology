@@ -1951,26 +1951,46 @@ Nota: con un generico “legge” si riassumono le diverse modalità in cui un�
     
 
 
+    <!-- http://purl.org/critical-edition-ontology#addition -->
+    
+    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#addition">
+        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
+        <rdfs:comment xml:lang="en">An addition is a text string that the copyist inserts into the text but is not present in the antigraph, or a text string omitted by the copyist and added later elsewhere in the witness.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un’aggiunta è una stringa testuale che il copista inserisce nel testo ma non è presente nel modello oppure una stringa di testo omessa dal copista e aggiunta in un secondo momento in un altro punto del testimone.</rdfs:comment-->
+        <rdfs:label xml:lang="en">addition</rdfs:label>
+        <!--rdfs:label xml:lang="it">aggiunta</rdfs:label-->
+    </owl:NamedIndividual>
+    
     <!-- http://purl.org/critical-edition-ontology#characteristicReading -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#characteristicReading">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Non erroneous reading common to several witnesses, which can confirm their common origin if this is demonstrated by conjunctive errors.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione non erronea comune a più testimoni, che può confermare la loro comune origine se questa è dimostrata da errori congiuntivi.</rdfs:comment-->
+        <rdfs:label xml:lang="en">characteristic reading</rdfs:label>
+        <!--rdfs:label xml:lang="it">lezione caratteristica</rdfs:label-->
     </owl:NamedIndividual>
     
-
+    
+    
+    <!-- http://purl.org/critical-edition-ontology#conjecture -->
+    
+    <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#conjecture">
+        <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
+        <rdfs:comment xml:lang="en">Conjectural reading proposed by an editor external to the critical edition or by the copyist of a witness.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione congetturale proposta da un editore esterno all’edizione critica oppure dal copista di un testimone.</rdfs:comment-->
+        <rdfs:label xml:lang="en">conjecture</rdfs:label>
+        <!--rdfs:label xml:lang="it">congettura</rdfs:label-->
+    </owl:NamedIndividual>
 
     <!-- http://purl.org/critical-edition-ontology#conjunctiveError -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/critical-edition-ontology#conjunctiveError">
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Error present in two or more witnesses, which allows to deduce that they are copies of each other or copies of the same lost witness.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Errore presente in due o più testimoni, che consente di dedurre che essi sono copie l’uno dell’altro o copie di uno stesso testimone perduto.</rdfs:comment-->
+        <rdfs:label xml:lang="en">conjunctive error</rdfs:label>
+        <!--rdfs:label xml:lang="it">errore congiuntivo</rdfs:label-->
     </owl:NamedIndividual>
     
 
