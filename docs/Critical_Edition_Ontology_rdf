@@ -19,6 +19,13 @@
         <rdfs:comment xml:lang="en"></rdfs:comment>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
     </owl:Ontology>
+    
+    <!--cao=<https://w3id.org/cao>
+        hico=<http://purl.org/emmedi/hico>
+            crm=<http://www.cidoc-crm.org/cidoc-crm/>
+            prov=<http://www.w3.org/ns/prov>
+                oa=http://www.w3.org/ns/oa-->
+                
    
 
     <!-- 
@@ -282,6 +289,8 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
         <owl:equivalentProperty rdf:resource="https://w3id.org/cao#follows"/>
+        <rdfs:label xml:lang="en">follows</rdfs:label>
+        <!--rdfs:label xml:lang="it">segue</rdfs:label-->
         <!-- CAO, sistemare! -->
     </owl:ObjectProperty>
     
@@ -301,10 +310,7 @@
 
     <!-- http://purl.org/critical-edition-ontology#hasBody -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#hasBody">
-        <owl:equivalentProperty rdf:resource="http://purl.org/critical-edition-ontology#isContentOfApparatusEntry"/>
-        <!-- OA -->
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/oa#hasBody"/>
 
     <!-- http://purl.org/critical-edition-ontology#hasEntry -->
 
@@ -505,7 +511,8 @@
     <owl:ObjectProperty rdf:about="http://purl.org/critical-edition-ontology#isContentOfApparatusEntry">
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntry"/>
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntryContent"/>
-        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#isContentOfApparatusEntry"/>
+        <owl:inverseOf rdf:resource="http://purl.org/critical-edition-ontology#apparatusEntryHasContent"/>
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/ns/oa#hasBody"/>
         <rdfs:label xml:lang="en">is content of apparatus entry</rdfs:label>
         <!--rdfs:label xml:lang="it">è il contenuto della voce d’apparato</rdfs:label-->
     </owl:ObjectProperty>
