@@ -1426,54 +1426,46 @@ forme originarie del testo di un’opera.</rdfs:comment-->
         <rdfs:label xml:lang="en">Edited Text</rdfs:label>
         <!--rdfs:label xml:lang="it">Testo edito</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#EditedTextPassage -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#EditedTextPassage">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E90"/>
         <rdfs:comment xml:lang="en">A portion of variable size of the edited text, made up of characters, words or sentences.</rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <!--rdfs:comment xml:lang="it">Una porzione di dimensione variabile del testo edito, costituita da caratteri, parole o frasi.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Edited Text Passage</rdfs:label>
+        <!--rdfs:label xml:lang="it">Passo del testo edito</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#Editor -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#Editor">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E39"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Person that created a scholarly edition. The editor must possess philological skills and textual criticism skills. The identity of the editor must be known, in order to make their work citable.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Persona che realizza un’edizione scientifica. L’editore deve possedere competenze di filologia e di critica testuale. L’identità dell'editore deve essere nota, per rendere il suo lavoro citabile.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Editor</rdfs:label>
+        <!--rdfs:label xml:lang="it">Editore</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#EditorsGroup -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#EditorsGroup">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Editor"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E74"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A group of editors that collaboratively create a scholarly edition.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un gruppo di editori che ha realizzato collaborativamente un’edizione scientifica.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Editors Group</rdfs:label>
+        <!--rdfs:label xml:lang="it">Gruppo di editori</rdfs:label-->
     </owl:Class>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#ExternalCriticalInterventionCriterion -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#ExternalCriticalInterventionCriterion">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionCriterion"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A criterion for carrying out the critical intervention based on the genealogy of the textual transmission.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un criterio per effettuare l’intervento critico basato sulla genealogia della tradizione testuale.</rdfs:comment-->
+        <rdfs:label xml:lang="en">External Critical Intervention Criterion</rdfs:label>
+        <!--rdfs:label xml:lang="it">Criterio esterno dell'intervento critico</rdfs:label-->
     </owl:Class>
     
 
@@ -1510,128 +1502,110 @@ forme originarie del testo di un’opera.</rdfs:comment-->
         <rdfs:label xml:lang="en"></rdfs:label>
         <!--rdfs:label xml:lang="it"></rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#Gap -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#Gap">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Reading"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Missing passage within a witness. It may be due to a voluntary or involuntary omission on the part of the copyist, a mechanical gap, an erasure or the state of conservation of the witness.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Passo mancante all’interno di un testimone. Può essere dovuto a un’omissione volontaria o involontaria da parte del copista, a una lacuna meccanica, a una cancellatura o allo stato di conservazione del testimone.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Gap</rdfs:label>
+        <!--rdfs:label xml:lang="it">Passo mancante</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#InternalCriticalInterventionCriterion -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#InternalCriticalInterventionCriterion">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionCriterion"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A criterion for carrying out the critical intervention based on the intrinsic plausibility of the variants.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un criterio per effettuare l’intervento critico basato sulla plausibilità intrinseca delle varianti.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Internal Critical Intervention Criterion</rdfs:label>
+        <!--rdfs:label xml:lang="it">Criterio interno dell'intervento critico</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#Introduction -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#Introduction">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Text of variable size which introduces the edited text within a scholarly edition, presenting the work itself and the work carried out by the editor. The introduction may be organized in different parts and may contain lists, pictures, and other materials.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Testo di dimensione variabile che all’interno di un’edizione scientifica introduce il testo edito, presentando l’opera e il lavoro svolto dall’editore. L’introduzione può essere articolata in più parti e può contenere elenchi, immagini e altri tipi di materiali.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Introduction</rdfs:label>
+        <!--rdfs:label xml:lang="it">Introduzione</rdfs:label-->
     </owl:Class>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#IntroductionPart -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#IntroductionPart">
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A part of the introduction.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Una parte dell’introduzione.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Introduction Part</rdfs:label>
+        <!--rdfs:label xml:lang="it">Parte dell’introduzione</rdfs:label-->
     </owl:Class>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#Note -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#Note">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntry"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">An annotation to the critical text, which is part of the commentary.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un’annotazione al testo critico, che fa parte del commento.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Note</rdfs:label>
+        <!--rdfs:label xml:lang="it">Nota</rdfs:label-->
     </owl:Class>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#NoteContent -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#NoteContent">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntryContent"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Content of a note.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Contenuto di una nota.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Note Content</rdfs:label>
+        <!--rdfs:label xml:lang="it">Contenuto della nota</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#PassagePositionSelector -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#PassagePositionSelector">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#PassageSelector"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Type of selector of a passage of the critical text which indicates where the passage is positioned, usually through the number of the structural element in which the passage is contained (for example the verse, the line, the paragraph, etc.) or through the cross reference to an alphanumeric exponent or other graphic sign.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Tipo di selettore di un passo del testo critico che indica dove il passo è posizionato, solitamente attraverso il numero dell’elemento strutturale in cui il passo è contenuto (per esempio il verso, la riga, il paragrafo, ecc.) oppure attraverso il rimando a un esponente alfanumerico o a un altro segno grafico.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Passage Position Selector</rdfs:label>
+        <!--rdfs:label xml:lang="it">Selettore del passaggio in base alla posizione</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#PassageQuoteSelector -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#PassageQuoteSelector">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#PassageSelector"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Type of selector of a passage of the critical text which indicates the passage by copying it in its entirety or in abbreviated form.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Tipo di selettore di un passo del testo critico che indica il passo copiandolo integralmente o in forma abbreviata.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Passage Quote Selector</rdfs:label>
+        <!--rdfs:label xml:lang="it">Selettore del passaggio mediante la citazione</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#PassageSelector -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#PassageSelector">
         <owl:equivalentClass rdf:resource="http://purl.org/critical-edition-ontology#Selector"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E41"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Sequence of characters that allows to identify exact-ly a passage within a text. There are several types of selector. Often it is a reference to the location of the passage, for example the line or verse number, or a copy of the passage concerned.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Sequenza di caratteri che permette di individuare esattamente un passo all’interno di un testo. Ci sono diversi tipi di selettore. Spesso si tratta di un riferimento alla posizione del passo, per esempio il numero di riga o verso, o di una copia del passo interessato.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Passage Selector</rdfs:label>
+        <!--rdfs:label xml:lang="it">Selettore del passo</rdfs:label-->
     </owl:Class>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#Reader -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#Reader">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E21"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Person that reads the scholarly edition.
+            Note: the term “reads" was chosen to sum up the different ways in which a critical edition can be used.
+        </rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Persona che legge l’edizione scientifica.
+Nota: con un generico “legge” si riassumono le diverse modalità in cui un’edizione critica può essere fruita.
+</rdfs:comment-->
+        <rdfs:label xml:lang="en">Reader</rdfs:label>
+        <!--rdfs:label xml:lang="it">Lettore</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#Reading -->
 
@@ -1644,25 +1618,21 @@ forme originarie del testo di un’opera.</rdfs:comment-->
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A sequence of characters, words, or phrases that can be read in a preserved or lost witness.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Una sequenza di caratteri, parole o frasi che può essere letta in un testimone conservato o andato perduto.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Reading</rdfs:label>
+        <!--rdfs:label xml:lang="it">Lezione</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#ReadingGroup -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#ReadingGroup">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntryContent"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A set of readings within an entry of the critical apparatus, grouped to highlight some peculiarities of the textual tradition or to facilitate consultation. A group of readings is graphically distinct from the other contents of the critical apparatus entry.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un insieme di lezioni all’interno di una voce dell’apparato critico, raggruppate per mettere in evidenza alcune peculiarità della tradizione o per facilitare la consultazione. Un gruppo di lezioni è graficamente distinto dagli altri contenuti della voce dell’apparato critico.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Reading Group</rdfs:label>
+        <!--rdfs:label xml:lang="it">Gruppo di lezioni</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#ReadingInApparatus -->
 
@@ -1670,70 +1640,61 @@ forme originarie del testo di un’opera.</rdfs:comment-->
         <owl:equivalentClass rdf:resource="https://w3id.org/cao#Reading"/>
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntryContent"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E90"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Reading presented in a critical apparatus entry. A reading in the critical apparatus may correspond to two or more readings of different witnesses. The reading in the critical apparatus can be presented in a diplomatic (according to a particular witness) or interpretative form.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Lezione presentata in una voce dell’apparato critico. Una lezione nell’apparato critico può corrispondere in realtà a due o più lezioni di testimoni diversi. La lezione nell’apparato critico può essere riportata in veste diplomatica (secondo la lettera di un particolare testimone) o in veste interpretativa.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Reading In Apparatus</rdfs:label>
+        <!--rdfs:label xml:lang="it">Lezione in apparato</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#ReadingInApparatusCause -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#ReadingInApparatusCause">
         <owl:equivalentClass rdf:resource="https://w3id.org/cao#ReadingCause"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">The type of error made by the copyist during the act of copying or the factor that may have led the copyist to produce an erroneous or innovative reading.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Il tipo di errore commesso dal copista durante l’operazione di copia o il fattore che può aver indotto il copista a produrre una lezione erronea o innovativa.
+</rdfs:comment-->
+        <rdfs:label xml:lang="en">Reading In Apparatus Cause</rdfs:label>
+        <!--rdfs:label xml:lang="it">Causa della lezione in apparato</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#ReadingInApparatusType -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#ReadingInApparatusType">
         <owl:equivalentClass rdf:resource="https://w3id.org/cao#ReadingType"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Category that the editor assigns to a lesson to classify it and make their evaluation explicit.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Categoria che l’editore attribuisce a una lezione per classificarla ed esplicitare la propria valutazione.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Reading In Apparatus Type</rdfs:label>
+        <!--rdfs:label xml:lang="it">Tipo della lezione in apparato</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#ScholarlyEdition -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#ScholarlyEdition">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#F2_Expression"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">The content of a publication that makes the text of a literary work or work of historical-cultural interest, mostly of the past, otherwise inaccessible, accessible to the public. The edition is called “scholarly” as it is created by a scholar or a group of scholars, applying shared methodologies in their own philological field.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Il contenuto di una pubblicazione che rende accessibile al pubblico il testo di un’opera letteraria o di interesse storico-culturale, perlopiù del passato, altrimenti inaccessibile. L’edizione è detta “scientifica” in quanto è realizzata da uno studioso o da un gruppo di studiosi, applicando delle metodologie condivise nel proprio ambito filologico.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Scholarly Edition</rdfs:label>
+        <!--rdfs:label xml:lang="it">Edizione scientifica</rdfs:label-->
     </owl:Class>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#ScholarlyEditionComponent -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#ScholarlyEditionComponent">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#F2_Expression"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">A component of a scholarly edition. Usually the component of a scholarly edition is a text, but it can also be an image, a multimedia object or another kind of object. Among the main components of a scholarly edition are the edited text and the materials accompanying the edited text.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Un componente di un’edizione scientifica. Solitamente il componente di un’edizione scientifica è un testo, ma può essere anche un’immagine, un oggetto multimediale o un altro tipo di oggetto. Tra i principali componenti di un’edizione scientifica ci sono il testo edito e i materiali di corredo al testo edito.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Scholarly Edition Component</rdfs:label>
+        <!--rdfs:label xml:lang="it">Componente di un’edizione scientifica</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#ScholarlyEditionPublication -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#ScholarlyEditionPublication">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#F3_Manifestation"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">The publication of a scholarly edition, which comprises both the content (the scholarly edition itself), its presentation and the material support.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">La pubblicazione dell’edizione scientifica, che comprende non solo il suo contenuto (l’edizione scientifica in sé) ma anche il modo in cui si presenta e il suo supporto fisico.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Scholarly Edition Publication</rdfs:label>
+        <!--rdfs:label xml:lang="it">Pubblicazione dell'edizione scientifica</rdfs:label-->
     </owl:Class>
     
 
@@ -1746,53 +1707,45 @@ forme originarie del testo di un’opera.</rdfs:comment-->
         <rdfs:label xml:lang="en"></rdfs:label>
         <!--rdfs:label xml:lang="it"></rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#Siglum -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#Siglum">
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Alphanumeric string that identifies a witness within a critical edition.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Stringa alfanumerica che identifica un testimone all'interno di un'edizione critica.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Siglum</rdfs:label>
+        <!--rdfs:label xml:lang="it">Sigla del testimone</rdfs:label-->
     </owl:Class>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#SiglumReference -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#SiglumReference">
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Reference to a witness siglum, used within the critical apparatus (and in other apparatuses), next to readings and optionally to reconstructed passage references.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Rimando alla sigla di un testimone, utilizzato nell’apparato critico (e anche negli altri apparati), accanto alle lezioni e opzionalmente ai rimandi al passo ricostruito.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Siglum Reference</rdfs:label>
+        <!--rdfs:label xml:lang="it">Rimando alla sigla del testimone</rdfs:label-->
     </owl:Class>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#StemmaCodicum -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#StemmaCodicum">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#IntroductionPart"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/#E36"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Graph that represents the genealogical tree of the textual transmission of a work.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Grafo che rappresenta l’albero genealogico della tradizione di un’opera.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Stemma Codicum</rdfs:label>
+        <!--rdfs:label xml:lang="it">Stemma Codicum</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#SurfaceWitness -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#SurfaceWitness">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Witness used as a reference to establish the linguistic style of the critical text.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Testimone adottato come riferimento per stabilire la forma linguistica del testo crit</rdfs:comment-->
+        <rdfs:label xml:lang="en">Surface Witness</rdfs:label>
+        <!--rdfs:label xml:lang="it">Testimone di superficie</rdfs:label-->
     </owl:Class>
     
 
@@ -1805,8 +1758,6 @@ forme originarie del testo di un’opera.</rdfs:comment-->
         <rdfs:label xml:lang="en"></rdfs:label>
         <!--rdfs:label xml:lang="it"></rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#TextualTradition -->
 
@@ -1818,25 +1769,21 @@ forme originarie del testo di un’opera.</rdfs:comment-->
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Set of witnesses that preserve a work.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Insieme dei testimoni che tramandano un’opera.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Textual Tradition</rdfs:label>
+        <!--rdfs:label xml:lang="it">Tradizione testuale</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#UnclearPassage -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#UnclearPassage">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Reading"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Witness passage of variable size, which the editor cannot read and report with certainty due to how it appears within its material support.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Passo del testimone di dimensione variabile, che l’editore non può leggere e riportare con certezza per via di come si presenta all’interno del proprio supporto materiale.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Unclear Passage</rdfs:label>
+        <!--rdfs:label xml:lang="it">Luogo incerto del testo</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#Witness -->
 
@@ -1856,13 +1803,11 @@ forme originarie del testo di un’opera.</rdfs:comment-->
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Copy of the text of a work.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Copia del testo di un’opera.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Witness</rdfs:label>
+        <!--rdfs:label xml:lang="it">Testimone</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#WitnessCarrier -->
 
@@ -1875,34 +1820,30 @@ forme originarie del testo di un’opera.</rdfs:comment-->
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">The physical support of a witness, usually a manuscript or a printed book.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Il supporto materiale di un testimone, solitamente un manoscritto o un libro a stampa.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Witness Carrier</rdfs:label>
+        <!--rdfs:label xml:lang="it">Supporto del testimone</rdfs:label-->
     </owl:Class>
     
-
-
     <!-- http://purl.org/critical-edition-ontology#WitnessDescription -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#WitnessDescription">
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">Text that can be provided within the witnesses list, to describe a witness in more or less depth and dealing with different aspects: the state of conservation, the material aspect, the palaeographic analysis, etc.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Testo che può essere fornito all’interno dell’elenco dei testimoni, per descrivere un testimone in modo più o meno approfondito e trattando diversi aspetti: lo stato di conservazione, l’aspetto materiale, l’analisi paleografica, ecc.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Witness Description</rdfs:label>
+        <!--rdfs:label xml:lang="it">Descrizione del testimone</rdfs:label-->
     </owl:Class>
-    
-
 
     <!-- http://purl.org/critical-edition-ontology#WitnessesList -->
 
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#WitnessesList">
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#IntroductionPart"/>
-        <rdfs:comment xml:lang="en"></rdfs:comment>
-        <!--rdfs:comment xml:lang="it"></rdfs:comment-->
-        <rdfs:label xml:lang="en"></rdfs:label>
-        <!--rdfs:label xml:lang="it"></rdfs:label-->
+        <rdfs:comment xml:lang="en">List of the witnesses that preserve the text of a work. The list is presented within a critical edition, usually inside the introduction.</rdfs:comment>
+        <!--rdfs:comment xml:lang="it">Elenco dei testimoni che tramandano il testo di un’opera. L’elenco è presentato all’interno di un’edizione critica, solitamente nell’introduzione.</rdfs:comment-->
+        <rdfs:label xml:lang="en">Witnesses List</rdfs:label>
+        <!--rdfs:label xml:lang="it">Elenco dei testimoni (o testimoniale)</rdfs:label-->
     </owl:Class>
     
 
