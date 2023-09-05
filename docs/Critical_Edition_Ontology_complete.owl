@@ -251,8 +251,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEdition"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Editor or EditorsGroup with an instance of Scholarly Edition they created.</rdfs:comment>
         <rdfs:label xml:lang="en">created</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Editor o di EditorsGroup a un’istanza di Scholarly Edition da loro creata.</rdfs:comment>
+        <rdfs:label xml:lang="it">ha creato</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -465,8 +465,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Textual Transmission to an instance of Witness and represents the relationship between a witness and the textual tradition to which it belongs.</rdfs:comment>
         <rdfs:label xml:lang="en">has part</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Textual Transmission a un’istanza di Witness e rappresenta il rapporto tra un testimone e la tradizione testuale cui appartiene.</rdfs:comment>
+        <rdfs:label xml:lang="it">ha una parte</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -646,8 +646,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEdition"/>
         <rdfs:comment xml:lang="en">This property associates an instance of F1 Work with an instance of Scholarly Edition. A scholarly edition is one of the realizations of a work.</rdfs:comment>
         <rdfs:label xml:lang="en">is edited in</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di F1 Work a un’istanza di Scholarly Edition. Un’edizione scientifica è una delle realizzazioni di un’opera.</rdfs:comment>
+        <rdfs:label xml:lang="it">è edito in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -659,7 +659,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEdition"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#F1_Work"/>
         <rdfs:label xml:lang="en">is edition of</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è l’edizione di</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -784,7 +784,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#TextualTradition"/>
         <rdfs:label xml:lang="en">is part of</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è parte di</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -849,7 +849,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#WitnessCarrier"/>
         <rdfs:label xml:lang="en">is preserved in</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è conservato in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -862,7 +862,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEdition"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEditionPublication"/>
         <rdfs:label xml:lang="en">is published in</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è pubblicata in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -874,7 +874,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEditionPublication"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Reader"/>
         <rdfs:label xml:lang="en">is read by</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è letta da</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -936,7 +936,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#F1_Work"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:label xml:lang="en">is transmitted in</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è tramandata da</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -991,8 +991,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:comment xml:lang="en">This property associates a physical support, an instance of Witness Carrier, with the witness it preserves, an instance of Witness. Several witnesses can be preserved within the same physical carrier.</rdfs:comment>
         <rdfs:label xml:lang="en">preserves</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un supporto fisico, un’istanza di Witness Carrier, al testimone che conserva al proprio interno, un’istanza di Witness. All’interno del medesimo supporto fisico possono essere conservati più testimoni.</rdfs:comment>
+        <rdfs:label xml:lang="it">conserva</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1005,8 +1005,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEdition"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Scholarly Edition with the instance of Scholarly Edition Publication within which it is published. The same instance of Scholarly Edition can be published in different publications. At the same time, a publication can contain several scholarly editions.</rdfs:comment>
         <rdfs:label xml:lang="en">publishes</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Scholarly Edition all’istanza di Scholarly Edition Publication all’interno della quale è pubblicata. La medesima istanza di Scholarly Edition può essere pubblicata in pubblicazioni diverse. Al contempo, una pubblicazione può contenere più edizioni scientifiche.</rdfs:comment>
+        <rdfs:label xml:lang="it">pubblica</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1031,8 +1031,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEditionPublication"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Reader with the instance of Scholarly Edition Publication they read.</rdfs:comment>
         <rdfs:label xml:lang="en">reads</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Reader all’istanza di Scholarly Edition Publication che legge.</rdfs:comment>
+        <rdfs:label xml:lang="it">legge</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1099,8 +1099,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#F1_Work"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Witness with the instance of F1 Work it transmits. An instance of F1 Work is handed down by at least one witness and a variable number of witnesses can hand down the same work.</rdfs:comment>
         <rdfs:label xml:lang="en">transmits</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Witness all’istanza di F1 Work che tramanda. Un’istanza di F1 Work è tramandata da almeno un testimone e un numero variabile di testimoni può tramandare la stessa opera.</rdfs:comment>
+        <rdfs:label xml:lang="it">tramanda</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1111,7 +1111,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEdition"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Editor"/>
         <rdfs:label xml:lang="en">was created by</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è stata creata da</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1552,8 +1552,10 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEdition"/>
         <rdfs:comment xml:lang="en">A type of scholarly edition, created by applying the principles of textual criticism, with the aim of reconstructing the original form or more original forms of the text of a work.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Edition</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un tipo di edizione scientifica, realizzata applicando i principi della critica testuale, allo scopo di ricostruire la forma originaria o le 
+            forme originarie del testo di un’opera.
+        </rdfs:comment>
+        <rdfs:label xml:lang="it">Edizione critica</rdfs:label>
     </owl:Class>
     
 
@@ -1656,8 +1658,8 @@
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
         <rdfs:comment xml:lang="en">Person that created a scholarly edition. The editor must possess philological skills and textual criticism skills. The identity of the editor must be known, in order to make their work citable.</rdfs:comment>
         <rdfs:label xml:lang="en">Editor</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Persona che realizza un’edizione scientifica. L’editore deve possedere competenze di filologia e di critica testuale. L’identità dell'editore deve essere nota, per rendere il suo lavoro citabile.</rdfs:comment>
+        <rdfs:label xml:lang="it">Editore</rdfs:label>
     </owl:Class>
     
 
@@ -1669,8 +1671,8 @@
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
         <rdfs:comment xml:lang="en">A group of editors that collaboratively create a scholarly edition.</rdfs:comment>
         <rdfs:label xml:lang="en">Editors Group</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un gruppo di editori che ha realizzato collaborativamente un’edizione scientifica.</rdfs:comment>
+        <rdfs:label xml:lang="it">Gruppo di editori</rdfs:label>
     </owl:Class>
     
 
@@ -1828,11 +1830,13 @@
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#Reader">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment xml:lang="en">Person that reads the scholarly edition.
-            Note: the term “reads&quot; was chosen to sum up the different ways in which a critical edition can be used.
+            Note: the term “reads” was chosen to sum up the different ways in which a critical edition can be used.
         </rdfs:comment>
         <rdfs:label xml:lang="en">Reader</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Persona che legge l’edizione scientifica.
+            Nota: con un generico “legge” si riassumono le diverse modalità in cui un’edizione critica può essere fruita.
+        </rdfs:comment>
+        <rdfs:label xml:lang="it">Lettore</rdfs:label>
     </owl:Class>
     
 
@@ -1912,8 +1916,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#F2_Expression"/>
         <rdfs:comment xml:lang="en">The content of a publication that makes the text of a literary work or work of historical-cultural interest, mostly of the past, otherwise inaccessible, accessible to the public. The edition is called “scholarly” as it is created by a scholar or a group of scholars, applying shared methodologies in their own philological field.</rdfs:comment>
         <rdfs:label xml:lang="en">Scholarly Edition</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Il contenuto di una pubblicazione che rende accessibile al pubblico il testo di un’opera letteraria o di interesse storico-culturale, perlopiù del passato, altrimenti inaccessibile. L’edizione è detta “scientifica” in quanto è realizzata da uno studioso o da un gruppo di studiosi, applicando delle metodologie condivise nel proprio ambito filologico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Edizione scientifica</rdfs:label>
     </owl:Class>
     
 
@@ -1936,8 +1940,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#F3_Manifestation"/>
         <rdfs:comment xml:lang="en">The publication of a scholarly edition, which comprises both the content (the scholarly edition itself), its presentation and the material support.</rdfs:comment>
         <rdfs:label xml:lang="en">Scholarly Edition Publication</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">La pubblicazione dell’edizione scientifica, che comprende non solo il suo contenuto (l’edizione scientifica in sé) ma anche il modo in cui si presenta e il suo supporto fisico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Pubblicazione dell'edizione scientifica</rdfs:label>
     </owl:Class>
     
 
@@ -2014,8 +2018,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Set of witnesses that preserve a work.</rdfs:comment>
         <rdfs:label xml:lang="en">Textual Tradition</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Insieme dei testimoni che tramandano un’opera.</rdfs:comment>
+        <rdfs:label xml:lang="it">Tradizione testuale</rdfs:label>
     </owl:Class>
     
 
@@ -2052,8 +2056,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Copy of the text of a work.</rdfs:comment>
         <rdfs:label xml:lang="en">Witness</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Copia del testo di un’opera.</rdfs:comment>
+        <rdfs:label xml:lang="it">Testimone</rdfs:label>
     </owl:Class>
     
 
@@ -2071,8 +2075,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">The physical support of a witness, usually a manuscript or a printed book.</rdfs:comment>
         <rdfs:label xml:lang="en">Witness Carrier</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Il supporto materiale di un testimone, solitamente un manoscritto o un libro a stampa.</rdfs:comment>
+        <rdfs:label xml:lang="it">Supporto del testimone</rdfs:label>
     </owl:Class>
     
 
