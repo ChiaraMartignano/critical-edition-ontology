@@ -207,8 +207,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntryContent"/>
         <rdfs:comment xml:lang="en">This property associates an apparatus entry, i.e. an instance of Apparatus Entry, with its content, an instance of Apparatus Entry Content.</rdfs:comment>
         <rdfs:label xml:lang="en">apparatus entry has content</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa una voce d’apparato, ovvero un’istanza di Apparatus Entry, al suo contenuto, istanza di Apparatus Entry Content.</rdfs:comment>
+        <rdfs:label xml:lang="it">la voce d’apparato ha il contenuto</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -222,8 +222,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#EditedTextPassage"/>
         <rdfs:comment xml:lang="en">This property associates an Apparatus Entry instance with the Edited Text Passage instance it refers to.</rdfs:comment>
         <rdfs:label xml:lang="en">apparatus entry refers to</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Apparatus Entry all’istanza di Edited Text Passage cui è riferita.</rdfs:comment>
+        <rdfs:label xml:lang="it">la voce d’apparato si riferisce a</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -325,8 +325,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEditionComponent"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Scholarly Edition with an instance of Scholarly Edition Component.</rdfs:comment>
         <rdfs:label xml:lang="en">edition has component</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Scholarly Edition a un’istanza di Scholarly Edition Component.</rdfs:comment>
+        <rdfs:label xml:lang="it">l’edizione ha il componente</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -378,8 +378,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Apparatus"/>
         <rdfs:comment xml:lang="en">This property associates an Edited Text instance with an Apparatus instance. Multiple apparatuses can be associated with the same edited text.</rdfs:comment>
         <rdfs:label xml:lang="en">has apparatus</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Edited Text a un’istanza di Apparatus. Più apparati possono essere associati al medesimo testo edito.</rdfs:comment>
+        <rdfs:label xml:lang="it">ha l’apparato</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -393,8 +393,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntry"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Apparatus instance with an instance of Apparatus Entry. An apparatus contains at least one apparatus entry. Several apparatus entries are linked to an apparatus.</rdfs:comment>
         <rdfs:label xml:lang="en">has entry</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Apparatus a un’istanza di Apparatus Entry. Un apparato contiene almeno una voce d’apparato. A un apparato sono collegate più voci d’apparato.</rdfs:comment>
+        <rdfs:label xml:lang="it">ha la voce</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -480,8 +480,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#EditedTextPassage"/>
         <rdfs:comment xml:lang="en">This property associates an edited text, an instance of Edited Text, with a passage contained within it, represented by an instance of Edited Text Passage.</rdfs:comment>
         <rdfs:label xml:lang="en">has passage</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un testo edito, istanza di Edited Text, a un passo contenuto al suo interno, rappresentato da un’istanza di Edited Text Passage.</rdfs:comment>
+        <rdfs:label xml:lang="it">ha il passo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -555,7 +555,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Apparatus"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#EditedText"/>
         <rdfs:label xml:lang="en">is apparatus of</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è l’apparato di</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -569,8 +569,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Edited Text with at least one instance of Witness, which represents the witness from which it is derived.</rdfs:comment>
         <rdfs:label xml:lang="en">is based on</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Edited Text ad almeno un’istanza di Witness, che rappresenta il testimone da cui è derivato.</rdfs:comment>
+        <rdfs:label xml:lang="it">è basato su</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -582,7 +582,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#EditedText"/>
         <rdfs:label xml:lang="en">is basis for</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è la base per</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -608,7 +608,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEditionComponent"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEdition"/>
         <rdfs:label xml:lang="en">is component of edition</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è il componente dell’edizione</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -620,7 +620,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntryContent"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntry"/>
         <rdfs:label xml:lang="en">is content of apparatus entry</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è il contenuto della voce d’apparato</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -671,7 +671,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntry"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Apparatus"/>
         <rdfs:label xml:lang="en">is entry of</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è la voce di</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -836,7 +836,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#EditedTextPassage"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#EditedText"/>
         <rdfs:label xml:lang="en">is passage of</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è il passo di</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -898,7 +898,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#EditedTextPassage"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntry"/>
         <rdfs:label xml:lang="en">is referred to by apparatus entry</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è riferito dalla voce d’apparato</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -923,7 +923,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#PassageSelector"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#EditedTextPassage"/>
         <rdfs:label xml:lang="en">is selector of passage</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è il selettore del passo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -949,8 +949,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#PassageSelector"/>
         <rdfs:comment xml:lang="en">This property associates a passage of the edited text, represented by an instance of Edited Text Passage, to the selector that identifies it, represented by an instance of Passage Selector.</rdfs:comment>
         <rdfs:label xml:lang="en">passage has selector</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un passo del testo edito, rappresentato da un’istanza di Edited Text Passage, al selettore che lo individua, rappresentato da un’istanza di Passage Selector.</rdfs:comment>
+        <rdfs:label xml:lang="it">il passo ha il selettore</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1057,8 +1057,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntryContent"/>
         <rdfs:comment xml:lang="en">This property associates the selector of a passage of the edited text, an instance of Passage Selector, with the content of an apparatus entry, an instance of Apparatus Entry Content, within which it is shown.</rdfs:comment>
         <rdfs:label xml:lang="en">selector is shown in</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa il selettore di un passo del testo edito, istanza di Passage Selector, al contenuto di una voce d’apparato, istanza di Apparatus Entry Content, all’interno del quale viene mostrato.</rdfs:comment>
+        <rdfs:label xml:lang="it">il selettore è presentato in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1456,8 +1456,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatus"/>
         <rdfs:comment xml:lang="en">The reading chosen or proposed by the editor, presented within an entry of the critical apparatus for the dual purpose of indicating the passage in the text to which the entry refers and to allow the reader to compare it more easily with the other recorded readings.</rdfs:comment>
         <rdfs:label xml:lang="en">Base Reading In Apparatus</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">La lezione scelta o proposta dall’editore, presentata all’interno di una voce dell’apparato critico al duplice scopo di esplicitare il punto del testo cui la voce fa riferimento e di consentire al lettore di metterla più facilmente a confronto con le altre lezioni registrate.</rdfs:comment>
+        <rdfs:label xml:lang="it">Lezione di base nell’apparato</rdfs:label>
     </owl:Class>
     
 
@@ -1480,8 +1480,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Apparatus"/>
         <rdfs:comment xml:lang="en">A type of apparatus that the editor appends to the critical text in order to offer more information on the textual transmission and to argue their editorial choices.</rdfs:comment>
         <rdfs:label xml:lang="en">Commentary</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un tipo di apparato che l’editore appone al testo critico per offrire maggiori informazioni sulla tradizione testuale e argomentare le proprie scelte editoriali.</rdfs:comment>
+        <rdfs:label xml:lang="it">Commento</rdfs:label>
     </owl:Class>
     
 
@@ -1492,8 +1492,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Apparatus"/>
         <rdfs:comment xml:lang="en">An apparatus through which the editor shows the differences between the critical text and the textual transmission and possibly explains their choices.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Apparatus</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Apparato mediante il quale l’editore illustra le differenze tra il testo critico e la tradizione, motivando eventualmente le proprie scelte.</rdfs:comment>
+        <rdfs:label xml:lang="it">Apparato critico (o apparato delle varianti)</rdfs:label>
     </owl:Class>
     
 
@@ -1504,8 +1504,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntry"/>
         <rdfs:comment xml:lang="en">An annotation to the critical text that is part of the critical apparatus, within which the editor presents the variants and, more generally, the readings attested in the textual tradition, comparing them with the relative passage in the critical text.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Apparatus Entry</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un’annotazione al testo critico che fa parte dell’apparato critico, all’interno della quale l’editore presenta le varianti e, più in generale, le lezioni attestate nella tradizione, mettendole a confronto con il relativo passaggio nel testo critico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Voce dell'apparato critico</rdfs:label>
     </owl:Class>
     
 
@@ -1516,8 +1516,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntryContent"/>
         <rdfs:comment xml:lang="en">The content of a critical apparatus entry.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Apparatus Entry Content</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Il contenuto di una voce dell’apparato critico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Contenuto della voce dell’apparato critico</rdfs:label>
     </owl:Class>
     
 
@@ -1528,8 +1528,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntryContent"/>
         <rdfs:comment xml:lang="en">Note that the editor inserts in an entry of the critical apparatus to specify some philological aspects of a reading, of a group of readings, of the chosen or proposed reading or, in general, of the textual tradition at that point of the text.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Apparatus Entry Note</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Nota che l’editore inserisce in una voce dell’apparato critico per specificare alcuni aspetti filologici di una lezione, di un gruppo di lezioni, della lezione scelta o proposta o, in generale, della tradizione testuale in quel punto del testo.</rdfs:comment>
+        <rdfs:label xml:lang="it">Nota della voce dell’apparato critico</rdfs:label>
     </owl:Class>
     
 
@@ -1540,8 +1540,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
         <rdfs:comment xml:lang="en">Structure in which the critical apparatus can be divided, in order to distinguish the different types of information it contains and facilitate its reading. A critical apparatus group may contain a particular type of readings (for example substantive variants or orthographic variants) or it may group together the information about the variation in a given set of witnesses (for example a family of witnesses).</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Apparatus Group</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Struttura in cui l’apparato critico può essere suddiviso, al fine di distinguere le diverse tipologie di informazioni contenute al suo interno e di facilitarne la consultazione. Una fascia dell’apparato critico può contenere una certa tipologia di lezioni (per esempio le varianti formali o le varianti sostanziali) oppure raggruppare le informazioni riguardanti alcuni sottogruppi della tradizione (per esempio una sotto-famiglia di testimoni).</rdfs:comment>
+        <rdfs:label xml:lang="it">Fascia dell’apparato critico</rdfs:label>
     </owl:Class>
     
 
@@ -1770,8 +1770,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntry"/>
         <rdfs:comment xml:lang="en">An annotation to the critical text, which is part of the commentary.</rdfs:comment>
         <rdfs:label xml:lang="en">Note</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un’annotazione al testo critico, che fa parte del commento.</rdfs:comment>
+        <rdfs:label xml:lang="it">Nota</rdfs:label>
     </owl:Class>
     
 
@@ -1782,8 +1782,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ApparatusEntryContent"/>
         <rdfs:comment xml:lang="en">Content of a note.</rdfs:comment>
         <rdfs:label xml:lang="en">Note Content</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Contenuto di una nota.</rdfs:comment>
+        <rdfs:label xml:lang="it">Contenuto della nota</rdfs:label>
     </owl:Class>
     
 
@@ -1794,8 +1794,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#PassageSelector"/>
         <rdfs:comment xml:lang="en">Type of selector of a passage of the critical text which indicates where the passage is positioned, usually through the number of the structural element in which the passage is contained (for example the verse, the line, the paragraph, etc.) or through the cross reference to an alphanumeric exponent or other graphic sign.</rdfs:comment>
         <rdfs:label xml:lang="en">Passage Position Selector</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Tipo di selettore di un passo del testo critico che indica dove il passo è posizionato, solitamente attraverso il numero dell’elemento strutturale in cui il passo è contenuto (per esempio il verso, la riga, il paragrafo, ecc.) oppure attraverso il rimando a un esponente alfanumerico o a un altro segno grafico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Selettore del passaggio in base alla posizione</rdfs:label>
     </owl:Class>
     
 
@@ -1806,8 +1806,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#PassageSelector"/>
         <rdfs:comment xml:lang="en">Type of selector of a passage of the critical text which indicates the passage by copying it in its entirety or in abbreviated form.</rdfs:comment>
         <rdfs:label xml:lang="en">Passage Quote Selector</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Tipo di selettore di un passo del testo critico che indica il passo copiandolo integralmente o in forma abbreviata.</rdfs:comment>
+        <rdfs:label xml:lang="it">Selettore del passaggio mediante la citazione</rdfs:label>
     </owl:Class>
     
 
@@ -1866,8 +1866,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#CriticalApparatusEntryContent"/>
         <rdfs:comment xml:lang="en">A set of readings within an entry of the critical apparatus, grouped to highlight some peculiarities of the textual tradition or to facilitate consultation. A group of readings is graphically distinct from the other contents of the critical apparatus entry.</rdfs:comment>
         <rdfs:label xml:lang="en">Reading Group</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un insieme di lezioni all’interno di una voce dell’apparato critico, raggruppate per mettere in evidenza alcune peculiarità della tradizione o per facilitare la consultazione. Un gruppo di lezioni è graficamente distinto dagli altri contenuti della voce dell’apparato critico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Gruppo di lezioni</rdfs:label>
     </owl:Class>
     
 
@@ -1960,6 +1960,8 @@
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#Siglum">
         <rdfs:comment xml:lang="en">Alphanumeric string that identifies a witness within a critical edition.</rdfs:comment>
         <rdfs:label xml:lang="en">Siglum</rdfs:label>
+        <rdfs:comment xml:lang="it">Stringa alfanumerica che identifica un testimone all'interno di un'edizione critica.</rdfs:comment>
+        <rdfs:label xml:lang="it">Sigla del testimone</rdfs:label>
     </owl:Class>
     
 
@@ -1969,6 +1971,8 @@
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#SiglumReference">
         <rdfs:comment xml:lang="en">Reference to a witness siglum, used within the critical apparatus (and in other apparatuses), next to readings and optionally to reconstructed passage references.</rdfs:comment>
         <rdfs:label xml:lang="en">Siglum Reference</rdfs:label>
+        <rdfs:comment xml:lang="it">Rimando alla sigla di un testimone, utilizzato nell’apparato critico (e anche negli altri apparati), accanto alle lezioni e opzionalmente ai rimandi al passo ricostruito.</rdfs:comment>
+        <rdfs:label xml:lang="it">Rimando alla sigla del testimone</rdfs:label>
     </owl:Class>
     
 
@@ -1980,9 +1984,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#IntroductionPart"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
         <rdfs:comment xml:lang="en">Graph that represents the genealogical tree of the textual transmission of a work.</rdfs:comment>
-        <rdfs:label xml:lang="en">Stemma Codicum</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="lat">Stemma Codicum</rdfs:label>
+        <rdfs:comment xml:lang="it">Grafo che rappresenta l’albero genealogico della tradizione di un’opera.</rdfs:comment>
     </owl:Class>
     
 
@@ -2086,8 +2089,8 @@
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#WitnessDescription">
         <rdfs:comment xml:lang="en">Text that can be provided within the witnesses list, to describe a witness in more or less depth and dealing with different aspects: the state of conservation, the material aspect, the palaeographic analysis, etc.</rdfs:comment>
         <rdfs:label xml:lang="en">Witness Description</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Testo che può essere fornito all’interno dell’elenco dei testimoni, per descrivere un testimone in modo più o meno approfondito e trattando diversi aspetti: lo stato di conservazione, l’aspetto materiale, l’analisi paleografica, ecc.</rdfs:comment>
+        <rdfs:label xml:lang="it">Descrizione del testimone</rdfs:label>
     </owl:Class>
     
 
@@ -2099,8 +2102,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#IntroductionPart"/>
         <rdfs:comment xml:lang="en">List of the witnesses that preserve the text of a work. The list is presented within a critical edition, usually inside the introduction.</rdfs:comment>
         <rdfs:label xml:lang="en">Witnesses List</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Elenco dei testimoni che tramandano il testo di un’opera. L’elenco è presentato all’interno di un’edizione critica, solitamente nell’introduzione.</rdfs:comment>
+        <rdfs:label xml:lang="it">Elenco dei testimoni (o testimoniale)</rdfs:label>
     </owl:Class>
     
 
