@@ -1468,8 +1468,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:comment xml:lang="en">Witness used as a basis to establish the critical text.</rdfs:comment>
         <rdfs:label xml:lang="en">Base Witness</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Testimone adottato come base per l’allestimento del testo critico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Testimone di base</rdfs:label>
     </owl:Class>
     
 
@@ -1573,8 +1573,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">During the preparation of the critical text, it is the interpretative act through which the editor establishes or reconstructs the portion of text to be included in the critical text and the readings to be presented in the critical apparatus, starting from the readings present in the textual transmission.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Intervention</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">In fase di allestimento del testo critico, è l’atto interpretativo mediante il quale l’editore stabilisce o ricostruisce la porzione di testo da accogliere nel testo critico e le lezioni da presentare nell’apparato critico, partendo dalle lezioni presenti nella tradizione testuale.</rdfs:comment>
+        <rdfs:label xml:lang="it">Intervento critico</rdfs:label>
     </owl:Class>
     
 
@@ -1585,8 +1585,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/emmedi/hico#InterpretationCriterion"/>
         <rdfs:comment xml:lang="en">The criterion or more broadly the reason why the editor has deemed a critical intervention necessary.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Intervention Criterion</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Il criterio o più in generale la motivazione che ad avviso dell’editore hanno reso necessario l'intervento critico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Criterio dell'intervento critico</rdfs:label>
     </owl:Class>
     
 
@@ -1597,8 +1597,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/emmedi/hico#InterpretationType"/>
         <rdfs:comment xml:lang="en">The type of critical intervention made by the editor, for example: the correction of an evident error, the selection of a variant (selectio), the conjecture (divinatio), etc.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Intervention Type</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">La tipologia dell’intervento critico effettuato dall’editore, per esempio: la correzione di un errore evidente, la scelta di una variante (selectio), la congettura (divinatio), ecc.</rdfs:comment>
+        <rdfs:label xml:lang="it">Tipo di intervento critico</rdfs:label>
     </owl:Class>
     
 
@@ -1609,8 +1609,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#EditedText"/>
         <rdfs:comment xml:lang="en">A type of edited text presented in a critical edition and edited for the purpose of reconstructing the original form or one of the original forms of the text of a work.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Text</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un tipo di testo edito presentato all’interno di un’edizione critica e allestito allo scopo di ricostruire la forma originaria o una delle forme originarie del testo di un’opera.</rdfs:comment>
+        <rdfs:label xml:lang="it">Testo critico</rdfs:label>
     </owl:Class>
     
 
@@ -1622,8 +1622,8 @@
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
         <rdfs:comment xml:lang="en">A portion of variable size of the critical text, made up of characters, words or sentences.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Text Passage</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Una porzione di dimensione variabile del testo critico, costituita da caratteri, parole o frasi.</rdfs:comment>
+        <rdfs:label xml:lang="it">Luogo del testo critico</rdfs:label>
     </owl:Class>
     
 
@@ -1683,8 +1683,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionCriterion"/>
         <rdfs:comment xml:lang="en">A criterion for carrying out the critical intervention based on the genealogy of the textual transmission.</rdfs:comment>
         <rdfs:label xml:lang="en">External Critical Intervention Criterion</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un criterio per effettuare l’intervento critico basato sulla genealogia della tradizione testuale.</rdfs:comment>
+        <rdfs:label xml:lang="it">Criterio esterno dell'intervento critico</rdfs:label>
     </owl:Class>
     
 
@@ -1723,8 +1723,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Reading"/>
         <rdfs:comment xml:lang="en">Missing passage within a witness. It may be due to a voluntary or involuntary omission on the part of the copyist, a mechanical gap, an erasure or the state of conservation of the witness.</rdfs:comment>
         <rdfs:label xml:lang="en">Gap</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Passo mancante all’interno di un testimone. Può essere dovuto a un’omissione volontaria o involontaria da parte del copista, a una lacuna meccanica, a una cancellatura o allo stato di conservazione del testimone.</rdfs:comment>
+        <rdfs:label xml:lang="it">Passo mancante</rdfs:label>
     </owl:Class>
     
 
@@ -1735,8 +1735,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionCriterion"/>
         <rdfs:comment xml:lang="en">A criterion for carrying out the critical intervention based on the intrinsic plausibility of the variants.</rdfs:comment>
         <rdfs:label xml:lang="en">Internal Critical Intervention Criterion</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un criterio per effettuare l’intervento critico basato sulla plausibilità intrinseca delle varianti.</rdfs:comment>
+        <rdfs:label xml:lang="it">Criterio interno dell'intervento critico</rdfs:label>
     </owl:Class>
     
 
@@ -1854,8 +1854,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A sequence of characters, words, or phrases that can be read in a preserved or lost witness.</rdfs:comment>
         <rdfs:label xml:lang="en">Reading</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Una sequenza di caratteri, parole o frasi che può essere letta in un testimone conservato o andato perduto.</rdfs:comment>
+        <rdfs:label xml:lang="it">Lezione</rdfs:label>
     </owl:Class>
     
 
@@ -1880,8 +1880,8 @@
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
         <rdfs:comment xml:lang="en">Reading presented in a critical apparatus entry. A reading in the critical apparatus may correspond to two or more readings of different witnesses. The reading in the critical apparatus can be presented in a diplomatic (according to a particular witness) or interpretative form.</rdfs:comment>
         <rdfs:label xml:lang="en">Reading In Apparatus</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione presentata in una voce dell’apparato critico. Una lezione nell’apparato critico può corrispondere in realtà a due o più lezioni di testimoni diversi. La lezione nell’apparato critico può essere riportata in veste diplomatica (secondo la lettera di un particolare testimone) o in veste interpretativa.</rdfs:comment>
+        <rdfs:label xml:lang="it">Lezione in apparato</rdfs:label>
     </owl:Class>
     
 
@@ -1892,8 +1892,8 @@
         <owl:equivalentClass rdf:resource="https://w3id.org/cao#ReadingCause"/>
         <rdfs:comment xml:lang="en">The type of error made by the copyist during the act of copying or the factor that may have led the copyist to produce an erroneous or innovative reading.</rdfs:comment>
         <rdfs:label xml:lang="en">Reading In Apparatus Cause</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Il tipo di errore commesso dal copista durante l’operazione di copia o il fattore che può aver indotto il copista a produrre una lezione erronea o innovativa.</rdfs:comment>
+        <rdfs:label xml:lang="it">Causa della lezione in apparato</rdfs:label>
     </owl:Class>
     
 
@@ -1904,8 +1904,8 @@
         <owl:equivalentClass rdf:resource="https://w3id.org/cao#ReadingType"/>
         <rdfs:comment xml:lang="en">Category that the editor assigns to a lesson to classify it and make their evaluation explicit.</rdfs:comment>
         <rdfs:label xml:lang="en">Reading In Apparatus Type</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Categoria che l’editore attribuisce a una lezione per classificarla ed esplicitare la propria valutazione.</rdfs:comment>
+        <rdfs:label xml:lang="it">Tipo della lezione in apparato</rdfs:label>
     </owl:Class>
     
 
@@ -1993,8 +1993,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:comment xml:lang="en">Witness used as a reference to establish the linguistic style of the critical text.</rdfs:comment>
         <rdfs:label xml:lang="en">Surface Witness</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Testimone adottato come riferimento per stabilire la forma linguistica del testo critico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Testimone di superficie</rdfs:label>
     </owl:Class>
     
 
@@ -2030,8 +2030,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#Reading"/>
         <rdfs:comment xml:lang="en">Witness passage of variable size, which the editor cannot read and report with certainty due to how it appears within its material support.</rdfs:comment>
         <rdfs:label xml:lang="en">Unclear Passage</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Passo del testimone di dimensione variabile, che l’editore non può leggere e riportare con certezza per via di come si presenta all’interno del proprio supporto materiale.</rdfs:comment>
+        <rdfs:label xml:lang="it">Luogo incerto del testo</rdfs:label>
     </owl:Class>
     
 
@@ -2220,8 +2220,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">An addition is a text string that the copyist inserts into the text but is not present in the antigraph, or a text string omitted by the copyist and added later elsewhere in the witness.</rdfs:comment>
         <rdfs:label xml:lang="en">addition</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un’aggiunta è una stringa testuale che il copista inserisce nel testo ma non è presente nel modello oppure una stringa di testo omessa dal copista e aggiunta in un secondo momento in un altro punto del testimone.</rdfs:comment>
+        <rdfs:label xml:lang="it">aggiunta</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2232,8 +2232,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Non erroneous reading common to several witnesses, which can confirm their common origin if this is demonstrated by conjunctive errors.</rdfs:comment>
         <rdfs:label xml:lang="en">characteristic reading</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione non erronea comune a più testimoni, che può confermare la loro comune origine se questa è dimostrata da errori congiuntivi.</rdfs:comment>
+        <rdfs:label xml:lang="it">lezione caratteristica</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2244,8 +2244,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Conjectural reading proposed by an editor external to the critical edition or by the copyist of a witness.</rdfs:comment>
         <rdfs:label xml:lang="en">conjecture</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione congetturale proposta da un editore esterno all’edizione critica oppure dal copista di un testimone.</rdfs:comment>
+        <rdfs:label xml:lang="it">congettura</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2256,8 +2256,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Error present in two or more witnesses, which allows to deduce that they are copies of each other or copies of the same lost witness.</rdfs:comment>
         <rdfs:label xml:lang="en">conjunctive error</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Errore presente in due o più testimoni, che consente di dedurre che essi sono copie l’uno dell’altro o copie di uno stesso testimone perduto.</rdfs:comment>
+        <rdfs:label xml:lang="it">errore congiuntivo</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2268,8 +2268,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">String of text that the copyist somehow designated to be removed.</rdfs:comment>
         <rdfs:label xml:lang="en">deletion</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Stringa di testo che il copista ha in qualche modo designato come da rimuovere.</rdfs:comment>
+        <rdfs:label xml:lang="it">cancellatura</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2280,8 +2280,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Text string deliberately omitted by the copyist in the act of copying the text.</rdfs:comment>
         <rdfs:label xml:lang="en">deliberate omission</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Stringa di testo volutamente omessa dal copista nell’atto di copiare il testo.</rdfs:comment>
+        <rdfs:label xml:lang="it">omissione volontaria</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2292,8 +2292,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">The phenomenon whereby tradition presents multiple alternative and distinct variants for a single textual passage, resulting from the scribes’ reaction to a difficulty in the original text.</rdfs:comment>
         <rdfs:label xml:lang="en">diffraction</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Fenomeno per cui la tradizione presenta più varianti alternative e diverse tra loro per un singolo luogo testuale, in seguito alla reazione dei copisti di fronte a una difficoltà del testo di partenza.</rdfs:comment>
+        <rdfs:label xml:lang="it">diffrazione</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2304,8 +2304,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">The same as diffraction, but with the peculiarity that none of the variants attested within the textual transmission is considered to be the origin of the phenomenon by the editor.</rdfs:comment>
         <rdfs:label xml:lang="en">diffraction in absentia</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lo stesso che diffrazione, ma con la particolarità che nessuna delle varianti attestate dalla tradizione è considerata all’origine del fenomeno dall’editore.</rdfs:comment>
+        <rdfs:label xml:lang="it">diffrazione in assenza (della lezione ricevibile)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2316,8 +2316,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">The same as diffraction, but with the peculiarity that one of the variants attested within the textual transmission is considered to be the origin of the phenomenon by the editor.</rdfs:comment>
         <rdfs:label xml:lang="en">diffraction in presentia</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lo stesso che diffrazione, ma con la particolarità che una delle varianti attestate dalla tradizione è considerata all’origine del fenomeno dall’editore.</rdfs:comment>
+        <rdfs:label xml:lang="it">diffrazione in presenza (della lezione ricevibile)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2328,8 +2328,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Obviously erroneous reading and therefore easily corrigible.</rdfs:comment>
         <rdfs:label xml:lang="en">easily corrigible error</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione evidentemente erronea e quindi facilmente correggibile.</rdfs:comment>
+        <rdfs:label xml:lang="it">errore facilmente correggibile</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2388,8 +2388,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Reading that is considered not to be in the original form of the text as it is incongruous with respect to the grammatical, semantic, metric, narrative coherence of the text.</rdfs:comment>
         <rdfs:label xml:lang="en">error</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione che si ritiene non ascrivibile alla forma originaria del testo in quanto incongrua rispetto alla coerenza grammaticale, semantica, metrica, narrativa del testo.</rdfs:comment>
+        <rdfs:label xml:lang="it">errore</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2400,8 +2400,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Variant for which according to the editor it is not possible to express a preference with respect to the others equally attributable to the original form of the text.</rdfs:comment>
         <rdfs:label xml:lang="en">indifferent variant</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Variante per cui secondo l’editore non è possibile esprimere una preferenza rispetto alle altre altrettanto attribuibili alla forma originaria del testo. </rdfs:comment>
+        <rdfs:label xml:lang="it">variante adiàfora</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2412,8 +2412,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Reading that alters the text of the antigraph and therefore cannot be attributed to the original form of the text.</rdfs:comment>
         <rdfs:label xml:lang="en">innovation</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione che modifica il testo dell’antigrafo e quindi non attribuibile alla forma originaria del testo.</rdfs:comment>
+        <rdfs:label xml:lang="it">innovazione</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2424,8 +2424,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Error present in two or more witnesses, which allows to deduce that they are copies of each other or copies of the same lost witness.</rdfs:comment>
         <rdfs:label xml:lang="en">inter scribendum correction</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Correzione di un errore da parte dello stesso copista, eseguita immediatamente, prima di continuare la scrittura del testo.</rdfs:comment>
+        <rdfs:label xml:lang="it">correzione nel corso della scrittura</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2436,8 +2436,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">More complex or rare or refined reading compared to the alternative variants, and therefore probably original.</rdfs:comment>
         <rdfs:label xml:lang="lat">lectio difficilior</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione più complessa o rara o ricercata rispetto alle varianti alternative, e quindi verosimilmente originaria.</rdfs:comment>
+        <rdfs:label xml:lang="it">lezione più difficile</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2448,8 +2448,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Less complex or rare or refined reading compared to the alternative variants, and therefore probably not original.</rdfs:comment>
         <rdfs:label xml:lang="lat">lectio facilior</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione meno complessa o rara o ricercata rispetto alle varianti alternative, e quindi non verosimilmente originaria.</rdfs:comment>
+        <rdfs:label xml:lang="it">lezione più facile (o banalizzazione)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2460,8 +2460,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Reading transmitted by a single witness or a single sub-family of witnesses who are isolated in the stemma with respect to the tradition as a whole.</rdfs:comment>
         <rdfs:label xml:lang="lat">lectio singularis</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione trasmessa da un solo testimone o una sola sotto-famiglia di testimoni che risultano isolati nello stemma rispetto all’insieme della tradizione.</rdfs:comment>
+        <rdfs:label xml:lang="it">lezione isolata</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2472,8 +2472,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Omission due to the physical loss of part of the witness.</rdfs:comment>
         <rdfs:label xml:lang="en">mechanic lacuna</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Omissione dovuta alla perdita fisica di una parte del testimone.</rdfs:comment>
+        <rdfs:label xml:lang="it">lacuna meccanica</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2484,8 +2484,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">An error which is unlikely to have been committed by several copyists independently of each other.</rdfs:comment>
         <rdfs:label xml:lang="en">monogenetic error</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Errore che è improbabile sia stato commesso da più copisti indipendentemente l’uno dall’altro.</rdfs:comment>
+        <rdfs:label xml:lang="it">errore monogenetico</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2496,8 +2496,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Reading that differs on a formal level (graphic and/or phonetic) from the reading considered original by the publisher.</rdfs:comment>
         <rdfs:label xml:lang="en">orthographic variant</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione che si differenzia su un piano formale (grafico e/o fonetico) rispetto alla lezione considerata originaria dall’editore.</rdfs:comment>
+        <rdfs:label xml:lang="it">variante ortografica</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2508,8 +2508,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">An error that is likely to have been committed by several copyists independently of each other.</rdfs:comment>
         <rdfs:label xml:lang="en">polygenetic error</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Errore che è probabile sia stato commesso da più copisti indipendentemente l’uno dall’altro.</rdfs:comment>
+        <rdfs:label xml:lang="it">errore poligenetico</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2532,8 +2532,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Error present in a witness A and absent in a witness B, which allows to deduce that B does not derive from A.</rdfs:comment>
         <rdfs:label xml:lang="en">separative error</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Errore presente in un codice A e assente in un codice B, che consente di dedurre che B non deriva da A.</rdfs:comment>
+        <rdfs:label xml:lang="it">errore separativo</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2544,8 +2544,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Conjunctive or separative error.</rdfs:comment>
         <rdfs:label xml:lang="en">significant error</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Errore congiuntivo o separativo.</rdfs:comment>
+        <rdfs:label xml:lang="it">errore significativo (o errore-guida)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2556,8 +2556,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Reading that differs on a semantic level from the reading considered original by the editor.</rdfs:comment>
         <rdfs:label xml:lang="en">substantive variant</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione che si differenzia su un piano semantico rispetto alla lezione considerata originaria dall’editore.</rdfs:comment>
+        <rdfs:label xml:lang="it">variante sostanziale</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2568,8 +2568,8 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#ReadingInApparatusType"/>
         <rdfs:comment xml:lang="en">Reading of one witness different from that of another, without one of them necessarily being erroneous.</rdfs:comment>
         <rdfs:label xml:lang="en">variant</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Lezione di un testimone diversa da quella di un altro, senza che una di esse sia necessariamente erronea.</rdfs:comment>
+        <rdfs:label xml:lang="it">variante</rdfs:label>
     </owl:NamedIndividual>
     
 
