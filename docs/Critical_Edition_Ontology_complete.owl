@@ -193,8 +193,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#EditedText"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Accompanying Material with the instance of Edited Text it accompanies. An edited text can have multiple accompanying materials.</rdfs:comment>
         <rdfs:label xml:lang="en">accompanies</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Accompanying Material all’istanza di Edited Text che correda. Un testo edito può avere molteplici materiali di corredo.</rdfs:comment>
+        <rdfs:label xml:lang="it">correda</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -437,8 +437,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionCriterion"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Critical Intervention with one or more instances of Critical Intervention Criterion.</rdfs:comment>
         <rdfs:label xml:lang="en">has intervention criterion</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Intervention a una o più istanze di Critical Intervention Criterion.</rdfs:comment>
+        <rdfs:label xml:lang="it">ha il criterio di intervento</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -451,8 +451,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Critical Intervention with an instance of Critical Intervention Type.</rdfs:comment>
         <rdfs:label xml:lang="en">has intervention type</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Intervention a un’istanza di Critical Intervention Type.</rdfs:comment>
+        <rdfs:label xml:lang="it">ha il tipo di intervento</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -495,8 +495,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Reading"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Witness with an instance of Reading. A reading is attested to by a single witness. A reading presented in the critical apparatus, on the other hand, can be common to two or more witnesses.</rdfs:comment>
         <rdfs:label xml:lang="en">has reading</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Witness a un’istanza di Reading. Una lezione è attestata da un solo testimone. Una lezione presentata nell’apparato critico, invece, può essere comune a due o più testimoni.</rdfs:comment>
+        <rdfs:label xml:lang="it">ha la lezione</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -543,7 +543,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#EditedText"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
         <rdfs:label xml:lang="en">is accompanied by</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è corredato da</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -595,8 +595,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Reading"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Critical Intervention with one or more instances of Reading (or its subclasses) upon which the critical intervention is based.</rdfs:comment>
         <rdfs:label xml:lang="en">is carried out on</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Intervention a una o più istanze di Reading (o le sue sottoclassi) su cui è basato l’intervento critico.</rdfs:comment>
+        <rdfs:label xml:lang="it">è condotto su</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -721,8 +721,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalText"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Critical Text with only one instance of Surface Witness.</rdfs:comment>
         <rdfs:label xml:lang="en">is linguistic basis for</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Text a una sola istanza di Surface Witness.</rdfs:comment>
+        <rdfs:label xml:lang="it">è la base linguistica per</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -734,7 +734,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalText"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#SurfaceWitness"/>
         <rdfs:label xml:lang="en">is linguistically based on</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è linguisticamente basato su</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -748,8 +748,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalText"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Critical Text with only one instance of Base Witness.</rdfs:comment>
         <rdfs:label xml:lang="en">is main basis for</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Text a una sola istanza di Base Witness.</rdfs:comment>
+        <rdfs:label xml:lang="it">è la base principale per</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -761,7 +761,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#CriticalText"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#BaseWitness"/>
         <rdfs:label xml:lang="en">is mainly based on</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è principalmente basato su</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -886,7 +886,7 @@
         <rdfs:domain rdf:resource="http://purl.org/critical-edition-ontology#Reading"/>
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Witness"/>
         <rdfs:label xml:lang="en">is reading of</rdfs:label>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="it">è la lezione di</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -963,8 +963,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#Editor"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Critical Intervention with an instance of Editor.</rdfs:comment>
         <rdfs:label xml:lang="en">performed by</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Intervention a un’istanza di Editor.</rdfs:comment>
+        <rdfs:label xml:lang="it">effettuato da</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -977,8 +977,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalIntervention"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Reading In Apparatus with an instance of Critical Intervention. With the same critical intervention, the editor prepares multiple readings to be presented in the critical apparatus.</rdfs:comment>
         <rdfs:label xml:lang="en">prepared by</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Reading In Apparatus a un’istanza di Critical Intervention. Con il medesimo intervento critico l’editore prepara molteplici lezioni da presentare nell’apparato critico.</rdfs:comment>
+        <rdfs:label xml:lang="it">preparata da</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1071,8 +1071,8 @@
         <rdfs:range rdf:resource="http://purl.org/critical-edition-ontology#CriticalIntervention"/>
         <rdfs:comment xml:lang="en">This property associates an instance of Critical Text Passage with an instance of Critical Intervention. With a critical intervention the editor establishes only one lesson to be included in the critical text.</rdfs:comment>
         <rdfs:label xml:lang="en">set by</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Questa proprietà associa un’istanza di Critical Text Passage a un’istanza di Critical Intervention. Con un intervento critico l’editore stabilisce una sola lezione da includere nel testo critico.</rdfs:comment>
+        <rdfs:label xml:lang="it">stabilito da</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1396,8 +1396,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEditionComponent"/>
         <rdfs:comment xml:lang="en">Component of a scholarly edition of a textual or other nature that accompanies the edited text and is subordinate to it.</rdfs:comment>
         <rdfs:label xml:lang="en">Accompanying Material</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Componente di un’edizione scientifica di natura testuale o di altro tipo che accompagna il testo edito e ad esso è subordinato.</rdfs:comment>
+        <rdfs:label xml:lang="it">Materiale di corredo</rdfs:label>
     </owl:Class>
     
 
@@ -1418,8 +1418,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
         <rdfs:comment xml:lang="en">Component of a scholarly edition that accompanies the edited text and consists of a set of annotations that the editor has appended to edited text for a particular scientific purpose.</rdfs:comment>
         <rdfs:label xml:lang="en">Apparatus</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Componente di un’edizione scientifica che accompagna un testo edito ed è costituito da un insieme di annotazioni che l’editore ha apposto al testo edito per un particolare obiettivo scientifico.</rdfs:comment>
+        <rdfs:label xml:lang="it">Apparato</rdfs:label>
     </owl:Class>
     
 
@@ -1430,8 +1430,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
         <rdfs:comment xml:lang="en">An annotation presented within an apparatus.</rdfs:comment>
         <rdfs:label xml:lang="en">Apparatus Entry</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un’annotazione presentata all’interno di un apparato.</rdfs:comment>
+        <rdfs:label xml:lang="it">Voce d’apparato</rdfs:label>
     </owl:Class>
     
 
@@ -1443,8 +1443,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
         <rdfs:comment xml:lang="en">Textual content of an apparatus entry.</rdfs:comment>
         <rdfs:label xml:lang="en">Apparatus Entry Content</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Contenuto testuale di una voce d’apparato.</rdfs:comment>
+        <rdfs:label xml:lang="it">Contenuto della voce d'apparato</rdfs:label>
     </owl:Class>
     
 
@@ -1634,8 +1634,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEditionComponent"/>
         <rdfs:comment xml:lang="en">Text of a work prepared by an editor or a group of editors within a scholarly edition.</rdfs:comment>
         <rdfs:label xml:lang="en">Edited Text</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Testo di un’opera allestito da un editore o da un gruppo di editori presentato all’interno di un’edizione scientifica.</rdfs:comment>
+        <rdfs:label xml:lang="it">Testo edito</rdfs:label>
     </owl:Class>
     
 
@@ -1646,8 +1646,8 @@
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
         <rdfs:comment xml:lang="en">A portion of variable size of the edited text, made up of characters, words or sentences.</rdfs:comment>
         <rdfs:label xml:lang="en">Edited Text Passage</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Una porzione di dimensione variabile del testo edito, costituita da caratteri, parole o frasi.</rdfs:comment>
+        <rdfs:label xml:lang="it">Passo del testo edito</rdfs:label>
     </owl:Class>
     
 
@@ -1747,8 +1747,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
         <rdfs:comment xml:lang="en">Text of variable size which introduces the edited text within a scholarly edition, presenting the work itself and the work carried out by the editor. The introduction may be organized in different parts and may contain lists, pictures, and other materials.</rdfs:comment>
         <rdfs:label xml:lang="en">Introduction</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Testo di dimensione variabile che all’interno di un’edizione scientifica introduce il testo edito, presentando l’opera e il lavoro svolto dall’editore. L’introduzione può essere articolata in più parti e può contenere elenchi, immagini e altri tipi di materiali.</rdfs:comment>
+        <rdfs:label xml:lang="it">Introduzione</rdfs:label>
     </owl:Class>
     
 
@@ -1758,8 +1758,8 @@
     <owl:Class rdf:about="http://purl.org/critical-edition-ontology#IntroductionPart">
         <rdfs:comment xml:lang="en">A part of the introduction.</rdfs:comment>
         <rdfs:label xml:lang="en">Introduction Part</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Una parte dell’introduzione.</rdfs:comment>
+        <rdfs:label xml:lang="it">Parte dell’introduzione</rdfs:label>
     </owl:Class>
     
 
@@ -1819,8 +1819,8 @@
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
         <rdfs:comment xml:lang="en">Sequence of characters that allows to identify exact-ly a passage within a text. There are several types of selector. Often it is a reference to the location of the passage, for example the line or verse number, or a copy of the passage concerned.</rdfs:comment>
         <rdfs:label xml:lang="en">Passage Selector</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Sequenza di caratteri che permette di individuare esattamente un passo all’interno di un testo. Ci sono diversi tipi di selettore. Spesso si tratta di un riferimento alla posizione del passo, per esempio il numero di riga o verso, o di una copia del passo interessato.</rdfs:comment>
+        <rdfs:label xml:lang="it">Selettore del passo</rdfs:label>
     </owl:Class>
     
 
@@ -1928,8 +1928,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#F2_Expression"/>
         <rdfs:comment xml:lang="en">A component of a scholarly edition. Usually the component of a scholarly edition is a text, but it can also be an image, a multimedia object or another kind of object. Among the main components of a scholarly edition are the edited text and the materials accompanying the edited text.</rdfs:comment>
         <rdfs:label xml:lang="en">Scholarly Edition Component</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:comment xml:lang="it">Un componente di un’edizione scientifica. Solitamente il componente di un’edizione scientifica è un testo, ma può essere anche un’immagine, un oggetto multimediale o un altro tipo di oggetto. Tra i principali componenti di un’edizione scientifica ci sono il testo edito e i materiali di corredo al testo edito.</rdfs:comment>
+        <rdfs:label xml:lang="it">Componente di un’edizione scientifica</rdfs:label>
     </owl:Class>
     
 
@@ -2340,8 +2340,9 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
         <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘emendatio’ when the editor corrects a passage in the text of the work.</rdfs:comment>
         <rdfs:label xml:lang="lat">emendatio</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="en">correction</rdfs:label>
+        <rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘emendatio’ quando l’editore corregge un luogo del testo dell’opera.</rdfs:comment>
+        <rdfs:label xml:lang="it">correzione</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2352,8 +2353,9 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
         <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘emendatio ex fontibus’ when the editor corrects a passage in the text, based on the sources they consider to have been used in writing the text of the work.</rdfs:comment>
         <rdfs:label xml:lang="lat">emendatio ex fontibus</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="en">correction  based on sources</rdfs:label>
+        <rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘emendatio ex fontibus’ quando l’editore sana un luogo del testo, basandosi sulle fonti che ritiene che siano state utilizzate in fase di scrittura del testo dell’opera.</rdfs:comment>
+        <rdfs:label xml:lang="it">correzione in base alle fonti</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2364,8 +2366,9 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
         <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘emendatio ope codicum’ when the editor corrects a passage in the text, resorting to a good reading transmitted by one or more witnesses.</rdfs:comment>
         <rdfs:label xml:lang="lat">emendatio ope codicum</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="en">correction  based on witnesses</rdfs:label>
+        <rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘emendatio ope codicum’ quando l’editore sana un luogo del testo, facendo ricorso a una lezione buona trasmessa da uno o più testimoni.</rdfs:comment>
+        <rdfs:label xml:lang="it">correzione in base ai testimoni</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2376,8 +2379,9 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
         <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘emendatio ope ingenii’ when the editor corrects a place in the text, proposing a conjectural reading, not attested by any witness.</rdfs:comment>
         <rdfs:label xml:lang="lat">emendatio ope ingenii</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="en">conjecture</rdfs:label>
+        <rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘emendatio ope ingenii’ quando l’editore sana un luogo del testo, proponendo una lezione congetturale, non attestata in alcun testimone.</rdfs:comment>
+        <rdfs:label xml:lang="it">congettura</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2520,8 +2524,9 @@
         <rdf:type rdf:resource="http://purl.org/critical-edition-ontology#CriticalInterventionType"/>
         <rdfs:comment xml:lang="en">A critical intervention can be classified as ‘selectio’ when the editor constitutes the passage of the critical text by choosing among the variants.</rdfs:comment>
         <rdfs:label xml:lang="lat">selectio</rdfs:label>
-        <rdfs:comment xml:lang="it"></rdfs:comment>
-        <rdfs:label xml:lang="it"></rdfs:label>
+        <rdfs:label xml:lang="en">selection</rdfs:label>
+        <rdfs:comment xml:lang="it">Un intervento critico è classificabile come ‘selectio’ quando l’editore costituisce il luogo del testo critico scegliendo tra le varianti.</rdfs:comment>
+        <rdfs:label xml:lang="it">selezione</rdfs:label>
     </owl:NamedIndividual>
     
 
