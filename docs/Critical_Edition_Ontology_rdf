@@ -1293,8 +1293,8 @@
 
     <!-- http://purl.org/critical-edition-ontology#Apparatus -->
 
-    <owl:Class rdf:about="http://purl.org/critical-edition-ontology#Apparatus">
-        <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#AccompanyingMaterial"/>
+    <owl:Class rdf:about="https://w3id.org/ceo#Apparatus">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ceo#AccompanyingMaterial"/>
         <rdfs:comment xml:lang="en">Component of a scholarly edition that accompanies the edited text and consists of a set of annotations that the editor has appended to edited text for a particular scientific purpose.</rdfs:comment>
         <rdfs:label xml:lang="en">Apparatus</rdfs:label>
     </owl:Class>
