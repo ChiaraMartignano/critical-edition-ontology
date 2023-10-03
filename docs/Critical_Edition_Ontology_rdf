@@ -1409,6 +1409,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/critical-edition-ontology#ScholarlyEdition"/>
         <rdfs:comment xml:lang="en">A type of scholarly edition, created by applying the principles of textual criticism, with the aim of reconstructing the original form or more original forms of the text of a work.</rdfs:comment>
         <rdfs:label xml:lang="en">Critical Edition</rdfs:label>
+        <rdfs:isDefinedBy>http://purl.org/critical-edition-ontology</rdfs:isDefinedBy>
     </owl:Class>
     
 
